@@ -86,17 +86,17 @@ public class CmsPageService {
         Pageable pageable = PageRequest.of(pageNo, pageSize, sort);
         Query query = new Query();
         /*动态拼接查询条件*/
-            //页面名称
+            //页面名称--模糊查询
         if (!StringUtils.isEmpty(queryPageRequest.getPageName())){
-            Pattern pattern = Pattern.compile("^" + queryPageRequest.getPageName() + "$", Pattern.CASE_INSENSITIVE);
+            Pattern pattern = Pattern.compile("^.*" + queryPageRequest.getPageName() + ".*$", Pattern.CASE_INSENSITIVE);
             query.addCriteria(Criteria.where("pageName").regex(pattern));
         }
-        //站点ID
+        //站点ID --精确查询
         if (!StringUtils.isEmpty(queryPageRequest.getSiteId())){
             Pattern pattern = Pattern.compile("^" + queryPageRequest.getSiteId() + "$", Pattern.CASE_INSENSITIVE);
             query.addCriteria(Criteria.where("siteId").regex(pattern));
         }
-        //页面别称
+        //页面别称--模糊查询
         if (!StringUtils.isEmpty(queryPageRequest.getPageAliase())){
             Pattern pattern = Pattern.compile("^.*" + queryPageRequest.getPageAliase() + ".*$", Pattern.CASE_INSENSITIVE);
             query.addCriteria(Criteria.where("pageAliase").regex(pattern));
