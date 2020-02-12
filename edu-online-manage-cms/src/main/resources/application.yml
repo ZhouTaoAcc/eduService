@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: edu-online-manage-cms //服务名称
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: edu_cms
+server:
+  port: 31001

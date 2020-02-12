@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/edu-online-API/edu-online-API.iml" filepath="$PROJECT_DIR$/edu-online-API/edu-online-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-common/edu-online-common.iml" filepath="$PROJECT_DIR$/edu-online-common/edu-online-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" filepath="$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-model/edu-online-model.iml" filepath="$PROJECT_DIR$/edu-online-model/edu-online-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" filepath="$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" filepath="$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/eduService.iml" filepath="$PROJECT_DIR$/.idea/eduService.iml" />
+    </modules>
+  </component>
+</project>
