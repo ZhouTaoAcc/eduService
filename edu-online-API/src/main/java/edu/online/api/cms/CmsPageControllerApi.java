@@ -33,9 +33,11 @@ public interface CmsPageControllerApi {
     @ApiOperation("分页查询页面列表")
     @ApiImplicitParams({
             @ApiImplicitParam(name="pageNo",value = "页码",required=true,paramType="path",dataType="int"),
-            @ApiImplicitParam(name="pageSize",value = "每页记录数",required=true,paramType="path",dataType="int")
+            @ApiImplicitParam(name="pageSize",value = "每页记录数",required=true,paramType="path",dataType="int"),
+            @ApiImplicitParam(name="startDate",value = "开始时间",paramType="path",dataType="string"),
+            @ApiImplicitParam(name="endDate",value = "结束时间",paramType="path",dataType="string")
     })
-    public QueryResponseResult findList(int pageNo, int pageSize, QueryPageRequest queryPageRequest);
+    public QueryResponseResult findList(int pageNo, int pageSize,String d,String d2,QueryPageRequest queryPageRequest);
 
     //2.添加页面
     @ApiOperation("添加页面")

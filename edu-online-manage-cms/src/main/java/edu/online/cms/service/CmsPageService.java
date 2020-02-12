@@ -7,6 +7,7 @@ import edu.online.cms.dao.CmsPageRepository;
 import edu.online.model.response.CommonCode;
 import edu.online.model.response.QueryResponseResult;
 import edu.online.model.response.QueryResult;
+import edu.online.utils.DateUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
@@ -33,7 +34,7 @@ public class CmsPageService {
     @Autowired
     private MongoTemplate mongoTemplate;
     /*1、分页查询业务逻辑*/
-    public QueryResponseResult findList(int pageNo, int pageSize, QueryPageRequest queryPageRequest) {
+    public QueryResponseResult findList(int pageNo, int pageSize, String d,String d2,QueryPageRequest queryPageRequest) {
 /*===方法1、ExampleMatcher匹配器====*/
         /*if (queryPageRequest == null) {
             queryPageRequest = new QueryPageRequest();
@@ -101,7 +102,11 @@ public class CmsPageService {
             Pattern pattern = Pattern.compile("^.*" + queryPageRequest.getPageAliase() + ".*$", Pattern.CASE_INSENSITIVE);
             query.addCriteria(Criteria.where("pageAliase").regex(pattern));
         }
-
+        if ((!StringUtils.isEmpty(d)&&!StringUtils.isEmpty(d2))){
+            query.addCriteria(Criteria.where("pageCreateTime")
+                    .gte(DateUtil.dateStrToISODate(d))//时间转换 CST->UTC
+                    .lte(DateUtil.dateStrToISODate(d2)));
+        }
         //计算总数
         long total = mongoTemplate.count(query, CmsPage.class);
 

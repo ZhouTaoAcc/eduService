@@ -30,6 +30,4 @@ public class QueryPageRequest {
     @ApiModelProperty("页面别名")
     private String pageAliase;
 
-    @ApiModelProperty("创建时间")
-    private String pageCreateTime;
 }
