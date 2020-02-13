@@ -7,10 +7,7 @@ import edu.online.api.cms.CmsPageControllerApi;
 import edu.online.cms.service.CmsPageService;
 import edu.online.model.response.QueryResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Classname CmsPageController
@@ -35,9 +32,29 @@ public class CmsPageController implements CmsPageControllerApi {
         return  cmsPageService.findList(pageNo,pageSize,d,d2,queryPageRequest);
     }
 
-   //添加页面
+    //添加页面
     @Override
-    public CmsResponseResult addPage(CmsPage cmsPage) {
+    @PostMapping("/add")
+    public CmsResponseResult addPage(@RequestBody CmsPage cmsPage) {
         return cmsPageService.addPage(cmsPage);
+    }
+
+    //编辑页面
+    @Override
+    @PutMapping("/update/{id}")
+    public CmsResponseResult updatePage(@PathVariable("id") String id,@RequestBody CmsPage cmsPage) {
+        return cmsPageService.updatePage(id,cmsPage);
+    }
+    //删除页面
+    @Override
+    @DeleteMapping("/delete/{id}")
+    public CmsResponseResult deletePage(@PathVariable("id") String id) {
+        return cmsPageService.deletePage(id);
+    }
+
+    @Override
+    @GetMapping("/findById/{id}")
+    public CmsResponseResult findById(@PathVariable("id") String id) {
+        return cmsPageService.findById(id);
     }
 }

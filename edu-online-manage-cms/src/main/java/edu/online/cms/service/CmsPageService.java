@@ -2,6 +2,7 @@ package edu.online.cms.service;
 
 import edu.online.Entity.cms.CmsPage;
 import edu.online.Entity.cms.request.QueryPageRequest;
+import edu.online.Entity.cms.response.CmsCode;
 import edu.online.Entity.cms.response.CmsResponseResult;
 import edu.online.cms.dao.CmsPageRepository;
 import edu.online.model.response.CommonCode;
@@ -9,6 +10,7 @@ import edu.online.model.response.QueryResponseResult;
 import edu.online.model.response.QueryResult;
 import edu.online.utils.DateUtil;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -19,6 +21,7 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.regex.Pattern;
 
 /**
@@ -33,76 +36,38 @@ public class CmsPageService {
     private CmsPageRepository cmsPageRepository;
     @Autowired
     private MongoTemplate mongoTemplate;
+    private static Logger logger = Logger.getLogger(CmsPageService.class); // 打印当前类日志
+
     /*1、分页查询业务逻辑*/
-    public QueryResponseResult findList(int pageNo, int pageSize, String d,String d2,QueryPageRequest queryPageRequest) {
-/*===方法1、ExampleMatcher匹配器====*/
-        /*if (queryPageRequest == null) {
-            queryPageRequest = new QueryPageRequest();
-        }
-        //自定义条件查询
-        //定义条件匹配器
-        ExampleMatcher exampleMatcher = ExampleMatcher.matching()
-                .withStringMatcher(ExampleMatcher.StringMatcher.CONTAINING) //改变默认字符串匹配方式：模糊查询
-                .withIgnoreCase(true) //改变默认大小写忽略方式：忽略大小写
-                .withIgnorePaths("pageNum", "pageSize") //忽略属性，不参与查询
-                .withMatcher("pageAliase", ExampleMatcher.GenericPropertyMatchers.contains());
+    public QueryResponseResult findList(int pageNo, int pageSize, String d, String d2, QueryPageRequest queryPageRequest) {
+        /*===方法1、ExampleMatcher匹配器====*/
+        /*1.ExampleMatcher exampleMatcher
+        2.PageRequest.of(pageNo, pageSize)
+        * 3. Example.of(cmsPage,exampleMatcher)
+        * 4.cmsPageRepository.findAll(example, pageable)
+        * */
 
-        //条件值对象
-        CmsPage cmsPage = new CmsPage();
-        BeanUtils.copyProperties(queryPageRequest,cmsPage);
-        //设置条件值（站点id）
-        if (StringUtils.isNotEmpty(queryPageRequest.getSiteId())) {
-            cmsPage.setSiteId(queryPageRequest.getSiteId());
-        }
-        //设置模板id作为查询条件
-        if (StringUtils.isNotEmpty(queryPageRequest.getTemplateId())) {
-            cmsPage.setTemplateId(queryPageRequest.getTemplateId());
-        }
-        //设置页面别名作为查询条件
-        if (StringUtils.isNotEmpty(queryPageRequest.getPageAliase())) {
-            cmsPage.setPageAliase(queryPageRequest.getPageAliase());
-        }
-        //定义条件对象Example
-        Example<CmsPage> example = Example.of(cmsPage,exampleMatcher);
-        //分页参数
-        if (pageNo <= 0) {
-            pageNo = 1;
-        }
-        pageNo = pageNo - 1;
-        if (pageSize <= 0) {
-            pageSize = 10;
-        }
-        Pageable pageable = PageRequest.of(pageNo, pageSize);
-        Page<CmsPage> all = cmsPageRepository.findAll(example, pageable);//实现自定义条件查询并且分页查询
-        System.out.println(all);
-        QueryResult queryResult = new QueryResult();
-        queryResult.setList(all.getContent());//数据列表
-        queryResult.setTotal(all.getTotalElements());//数据总记录数
-        QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS, queryResult);
-        return queryResponseResult;*/
-
-
- /*==方法2、MongoTemplate结合Query 动态查询===*/
+        /*==方法2、MongoTemplate结合Query 动态查询===*/
         Sort sort = Sort.by(Sort.Direction.DESC, "pageCreateTime");
         Pageable pageable = PageRequest.of(pageNo, pageSize, sort);
         Query query = new Query();
         /*动态拼接查询条件*/
-            //页面名称--模糊查询
-        if (!StringUtils.isEmpty(queryPageRequest.getPageName())){
+        //页面名称--模糊查询
+        if (!StringUtils.isEmpty(queryPageRequest.getPageName())) {
             Pattern pattern = Pattern.compile("^.*" + queryPageRequest.getPageName() + ".*$", Pattern.CASE_INSENSITIVE);
             query.addCriteria(Criteria.where("pageName").regex(pattern));
         }
         //站点ID --精确查询
-        if (!StringUtils.isEmpty(queryPageRequest.getSiteId())){
+        if (!StringUtils.isEmpty(queryPageRequest.getSiteId())) {
             Pattern pattern = Pattern.compile("^" + queryPageRequest.getSiteId() + "$", Pattern.CASE_INSENSITIVE);
             query.addCriteria(Criteria.where("siteId").regex(pattern));
         }
         //页面别称--模糊查询
-        if (!StringUtils.isEmpty(queryPageRequest.getPageAliase())){
+        if (!StringUtils.isEmpty(queryPageRequest.getPageAliase())) {
             Pattern pattern = Pattern.compile("^.*" + queryPageRequest.getPageAliase() + ".*$", Pattern.CASE_INSENSITIVE);
             query.addCriteria(Criteria.where("pageAliase").regex(pattern));
         }
-        if ((!StringUtils.isEmpty(d)&&!StringUtils.isEmpty(d2))){
+        if ((!StringUtils.isEmpty(d) && !StringUtils.isEmpty(d2))) {
             query.addCriteria(Criteria.where("pageCreateTime")
                     .gte(DateUtil.dateStrToISODate(d))//时间转换 CST->UTC
                     .lte(DateUtil.dateStrToISODate(d2)));
@@ -120,9 +85,49 @@ public class CmsPageService {
     }
 
     //2、添加页面业务逻辑*/
-    public CmsResponseResult addPage(CmsPage cmsPage){
-
-        return null;
+    public CmsResponseResult addPage(CmsPage cmsPage) {
+        //先根据页面唯一索引判断页面是否存在
+        CmsPage isCmsPage = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPagePhysicalPath());
+        if (isCmsPage == null) {
+            cmsPageRepository.save(cmsPage);
+            return new CmsResponseResult(CommonCode.SUCCESS, cmsPage);//新增成功
+        } else {
+            return new CmsResponseResult(CmsCode.CMS_ADDPAGE_EXISTSNAME, null);//页面以及存在
+        }
     }
 
+    //3.编辑页面
+    public CmsResponseResult updatePage(String id, CmsPage cmsPage) {
+        if (id != null) {//此时传递来的参数存在主键 说明是编辑
+            CmsResponseResult byId = findById(id);
+            if (byId.getCode() != 24000) {//表示页面存在
+                cmsPage.setPageId(id);
+                CmsPage save = cmsPageRepository.save(cmsPage);
+                if (save != null) {
+                    return new CmsResponseResult(CommonCode.SUCCESS, cmsPage);
+                }
+            }
+        }
+        return new CmsResponseResult(CommonCode.FAIL, null);
+    }
+
+    //4.删除页面
+    public CmsResponseResult deletePage(String id) {
+        CmsResponseResult byId = this.findById(id);
+        if (byId.getCode() != 24000) {//自定义24000表示页面存在
+            cmsPageRepository.deleteById(id);
+            return new CmsResponseResult(CommonCode.SUCCESS, null);
+        }
+        return new CmsResponseResult(CommonCode.FAIL, null);
+    }
+
+    //5.根据Id查询页面
+    public CmsResponseResult findById(String id) {
+        //先判断页面是否存在
+        Optional<CmsPage> byId = cmsPageRepository.findById(id);
+        if (byId.isPresent()) {//java8 特性 判断当前对象是否为空
+            return new CmsResponseResult(CommonCode.SUCCESS, byId.get());
+        }//否则返回页面不存在
+        return new CmsResponseResult(CmsCode.CMS_FINDPAGE_NotEXISTSNAME, null);
+    }
 }

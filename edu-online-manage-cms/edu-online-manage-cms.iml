@@ -85,6 +85,7 @@
     <orderEntry type="module" module-name="edu-online-model" />
     <orderEntry type="module" module-name="edu-online-utils" />
     <orderEntry type="module" module-name="edu-online-API" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.45" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.0.1.RELEASE" level="project" />

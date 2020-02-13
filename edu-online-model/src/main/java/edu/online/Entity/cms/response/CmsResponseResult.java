@@ -3,6 +3,7 @@ package edu.online.Entity.cms.response;
 import edu.online.Entity.cms.CmsPage;
 import edu.online.model.response.ResponseResult;
 import edu.online.model.response.ResultCode;
+import lombok.Data;
 
 /**
  * @Classname CmsResponseResult
@@ -10,11 +11,12 @@ import edu.online.model.response.ResultCode;
  * @Date 2020/2/11 18:30
  * @Created by zhoutao
  */
+@Data
 public class CmsResponseResult extends ResponseResult {
-    CmsPage cmsPage;
+    CmsPage data;
 
     public CmsResponseResult(ResultCode resultCode, CmsPage cmsPage) {
         super(resultCode);
-        this.cmsPage = cmsPage;
+        this.data = cmsPage;
     }
 }

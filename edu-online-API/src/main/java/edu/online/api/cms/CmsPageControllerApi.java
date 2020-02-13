@@ -23,7 +23,7 @@ Swagger是全球最大的OpenAPI规范（OAS）API开发工具框架，支持从
 */
 /**
  * @Classname CmsPageControllerApi
- * @Description 对外-查询页面的接口
+ * @Description 对外统一-查询页面的接口 服务之间调用
  * @Date 2019/12/8 17:48
  * @Created by zhoutao
  */
@@ -42,6 +42,13 @@ public interface CmsPageControllerApi {
     //2.添加页面
     @ApiOperation("添加页面")
     public CmsResponseResult addPage(CmsPage cmsPage);
-
-
+    //3.添加页面
+    @ApiOperation("编辑页面")
+    public CmsResponseResult updatePage(String id,CmsPage cmsPage);
+    //4.添加页面
+    @ApiOperation("删除页面")
+    public CmsResponseResult deletePage(String id);
+    //5.根据id查询页面
+    @ApiOperation("查询页面")
+    public CmsResponseResult findById(String id);
 }
