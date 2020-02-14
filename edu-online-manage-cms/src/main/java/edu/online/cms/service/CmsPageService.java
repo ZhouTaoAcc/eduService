@@ -87,13 +87,14 @@ public class CmsPageService {
     //2、添加页面业务逻辑*/
     public CmsResponseResult addPage(CmsPage cmsPage) {
         //先根据页面唯一索引判断页面是否存在
-        CmsPage isCmsPage = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPagePhysicalPath());
+        CmsPage isCmsPage = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
         if (isCmsPage == null) {
             cmsPageRepository.save(cmsPage);
             return new CmsResponseResult(CommonCode.SUCCESS, cmsPage);//新增成功
-        } else {
-            return new CmsResponseResult(CmsCode.CMS_ADDPAGE_EXISTSNAME, null);//页面以及存在
+        } else if (isCmsPage != null){
+            return new CmsResponseResult(CmsCode.CMS_ADDPAGE_EXISTSNAME, null);//页面已经存在
         }
+        return new CmsResponseResult(CommonCode.SERVER_ERROR, null);//其他错误
     }
 
     //3.编辑页面
@@ -107,14 +108,16 @@ public class CmsPageService {
                     return new CmsResponseResult(CommonCode.SUCCESS, cmsPage);
                 }
             }
+        }else{
+            return new CmsResponseResult(CommonCode.INVALID_PARAM, null);//非法参数
         }
-        return new CmsResponseResult(CommonCode.FAIL, null);
+        return new CmsResponseResult(CommonCode.SERVER_ERROR, null);//其他错误
     }
 
     //4.删除页面
     public CmsResponseResult deletePage(String id) {
         CmsResponseResult byId = this.findById(id);
-        if (byId.getCode() != 24000) {//自定义24000表示页面存在
+        if (byId.getCode() != 24000) {//存在  自定义24000表示页不存在
             cmsPageRepository.deleteById(id);
             return new CmsResponseResult(CommonCode.SUCCESS, null);
         }
@@ -127,7 +130,9 @@ public class CmsPageService {
         Optional<CmsPage> byId = cmsPageRepository.findById(id);
         if (byId.isPresent()) {//java8 特性 判断当前对象是否为空
             return new CmsResponseResult(CommonCode.SUCCESS, byId.get());
-        }//否则返回页面不存在
-        return new CmsResponseResult(CmsCode.CMS_FINDPAGE_NotEXISTSNAME, null);
+        }else if(!byId.isPresent()){//否则返回页面不存在
+            return new CmsResponseResult(CmsCode.CMS_FINDPAGE_NotEXISTSNAME, null);
+        }
+        return new CmsResponseResult(CommonCode.SERVER_ERROR, null);
     }
 }

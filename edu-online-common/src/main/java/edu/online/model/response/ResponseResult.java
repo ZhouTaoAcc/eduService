@@ -6,7 +6,7 @@ import lombok.ToString;
 
 /**
  * @Classname ResponseResult
- * @Description TODO
+ * @Description 返回操作信息
  * @Date 2019/12/7 17:00
  * @Created by zhoutao
  */

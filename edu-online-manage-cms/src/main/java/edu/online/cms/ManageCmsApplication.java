@@ -4,7 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
+import org.springframework.web.client.RestTemplate;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
@@ -15,11 +18,18 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EntityScan("edu.online.Entity.cms")//扫描实体类
+@ComponentScan(basePackages = {"edu.online.exception"}) //扫描自定义异常包
 @ComponentScan(basePackages = {"edu.online.api.cms"}) //扫描api对外接口
-@ComponentScan(basePackages={"edu.online.cms"})//扫描本项目下的所有类（不写可能404）
+@ComponentScan(basePackages = {"edu.online.cms"})//扫描本项目下的所有类（不写可能404）
 @EnableSwagger2
 public class ManageCmsApplication {
     public static void main(String[] args) {
         SpringApplication.run(ManageCmsApplication.class);
+    }
+
+    //注册RestTemplate到容器 远程请求接口 底层选择http客户端工具OkHttpClient 相当于浏览器
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate(new OkHttp3ClientHttpRequestFactory());
     }
 }

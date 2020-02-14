@@ -15,7 +15,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @ToString
 @Document(collection = "cms_template")
 public class CmsTemplate {
-
     //站点ID
     private String siteId;
     //模版ID
