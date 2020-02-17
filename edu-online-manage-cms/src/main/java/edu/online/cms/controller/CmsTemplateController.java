@@ -9,6 +9,8 @@ import edu.online.model.response.QueryResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
+
 /**
  * @Classname CmsTemplateController
  * @Description TODO
@@ -50,5 +52,23 @@ public class CmsTemplateController implements CmsTemplateControllerApi {
     @GetMapping("/findById/{id}")
     public CmsTemplateResponseResult findById(@PathVariable String id) {
         return cmsTemplateService.findById(id);
+    }
+
+    @Override
+    @GetMapping("/uploadTemplateFile")
+    public String uploadTemplateFile(String url)  {
+        return cmsTemplateService.uploadTemplateFile(url);
+    }
+
+    @Override
+    @GetMapping("/readTemplateFile")
+    public String readTemplateFile(String id,int type) throws IOException {
+        return cmsTemplateService.readTemplateFile(id,type);
+    }
+
+    @Override
+    @GetMapping("/deleteTemplateFile")
+    public String deleteTemplateFile(String id){
+        return cmsTemplateService.deleteTemplateFile(id);
     }
 }

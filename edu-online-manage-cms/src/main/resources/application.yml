@@ -5,5 +5,9 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017
       database: edu_cms
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0
 server:
   port: 31001

@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" filepath="$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" filepath="$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/eduService.iml" filepath="$PROJECT_DIR$/.idea/eduService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testFreemaker/testFreemaker.iml" filepath="$PROJECT_DIR$/testFreemaker/testFreemaker.iml" />
     </modules>
   </component>
 </project>

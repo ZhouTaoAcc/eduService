@@ -51,4 +51,7 @@ public interface CmsPageControllerApi {
     //5.根据id查询页面
     @ApiOperation("查询页面")
     public CmsResponseResult findById(String id);
+//    //6.页面预览
+//    @ApiOperation("页面预览")
+//    public void pagePreview(String pageId) throws IOException, TemplateException;
 }

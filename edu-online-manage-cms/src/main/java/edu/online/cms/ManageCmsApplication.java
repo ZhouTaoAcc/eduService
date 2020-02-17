@@ -26,10 +26,10 @@ public class ManageCmsApplication {
     public static void main(String[] args) {
         SpringApplication.run(ManageCmsApplication.class);
     }
-
-    //注册RestTemplate到容器 远程请求接口 底层选择http客户端工具OkHttpClient 相当于浏览器
+    /*把RestTemplate注册到容器*/
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate(new OkHttp3ClientHttpRequestFactory());
     }
+
 }

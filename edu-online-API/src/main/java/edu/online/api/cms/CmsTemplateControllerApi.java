@@ -9,6 +9,9 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 /**
  * @Classname CmsTemplateControllerApi
  * @Description TODO
@@ -37,4 +40,16 @@ public interface CmsTemplateControllerApi {
     //5.根据id查询模板
     @ApiOperation("查询模板")
     public CmsTemplateResponseResult findById(String id);
+
+    /*从GridFS中对文件操作*/
+
+    //6.上传模板文件
+    @ApiOperation("上传模板文件")
+    public String uploadTemplateFile(String url) ;
+    //7.读取模板文件
+    @ApiOperation("读取模板文件")
+    public String readTemplateFile(String id,int type) throws IOException;
+    //8.删除模板文件
+    @ApiOperation("删除模板文件")
+    public String deleteTemplateFile(String id) throws FileNotFoundException;
 }

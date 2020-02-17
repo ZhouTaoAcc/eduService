@@ -14,7 +14,7 @@ import lombok.Data;
 @Data
 public class CmsTemplateResponseResult extends ResponseResult{
     CmsTemplate data;
-    //List<T> data;
+
     public CmsTemplateResponseResult(ResultCode resultCode, CmsTemplate data) {
         super(resultCode);
         this.data = data;

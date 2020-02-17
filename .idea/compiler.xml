@@ -12,6 +12,7 @@
         <module name="edu-online-model" />
         <module name="edu-online-parent" />
         <module name="edu-online-utils" />
+        <module name="testFreemaker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +21,9 @@
       <module name="edu-online-manage-cms" target="1.8" />
       <module name="edu-online-model" target="1.8" />
       <module name="edu-online-parent" target="1.8" />
+      <module name="edu-online-testFreemaker" target="1.5" />
       <module name="edu-online-utils" target="1.8" />
+      <module name="testFreemaker" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,9 @@
 package edu.online.cms.service;
 
+import com.alibaba.fastjson.JSONObject;
+import com.mongodb.client.gridfs.GridFSBucket;
+import com.mongodb.client.gridfs.GridFSDownloadStream;
+import com.mongodb.client.gridfs.model.GridFSFile;
 import edu.online.Entity.cms.CmsTemplate;
 import edu.online.Entity.cms.request.QueryTemplateRequest;
 import edu.online.Entity.cms.response.CmsCode;
@@ -8,8 +12,11 @@ import edu.online.cms.dao.CmsTemplateRepository;
 import edu.online.model.response.CommonCode;
 import edu.online.model.response.QueryResponseResult;
 import edu.online.model.response.QueryResult;
+import edu.online.model.response.ResponseResult;
+import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -17,11 +24,16 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.gridfs.GridFsResource;
+import org.springframework.data.mongodb.gridfs.GridFsTemplate;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import javax.swing.filechooser.FileSystemView;
+import java.io.*;
+import java.net.URLEncoder;
 import java.util.List;
 import java.util.Optional;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
@@ -36,19 +48,21 @@ public class CmsTemplateService {
     private CmsTemplateRepository cmsTemplateRepository;
     @Autowired
     private MongoTemplate mongoTemplate;
-    private static Logger logger = Logger.getLogger(CmsPageService.class); // 打印当前类日志
-
-    List<CmsTemplate> list=new ArrayList<>();
+    @Autowired
+    private GridFsTemplate gridFsTemplate;//用于对文件对象处理
+    @Autowired
+    GridFSBucket gridFSBucket;//用于处理流对象
+    private static Logger logger = Logger.getLogger(CmsTemplateService.class); // 打印当前类日志
 
     /*1、分页查询业务逻辑*/
     public QueryResponseResult findList(int pageNo, int pageSize, QueryTemplateRequest queryTemplateRequest) {
-        Sort sort = Sort.by(Sort.Direction.DESC, "templateName");
+        Sort sort = Sort.by(Sort.Direction.DESC, "templateFileId");
         Pageable pageable = PageRequest.of(pageNo, pageSize, sort);
         Query query = new Query();
         /*动态拼接查询条件*/
-        if (!StringUtils.isEmpty(queryTemplateRequest.getSiteId())) {
-            Pattern pattern = Pattern.compile("^" + queryTemplateRequest.getSiteId() + "$", Pattern.CASE_INSENSITIVE);
-            query.addCriteria(Criteria.where("siteId").regex(pattern));
+        if (!StringUtils.isEmpty(queryTemplateRequest.getTemplateId())) {
+            Pattern pattern = Pattern.compile("^" + queryTemplateRequest.getTemplateId() + "$", Pattern.CASE_INSENSITIVE);
+            query.addCriteria(Criteria.where("templateId").regex(pattern));
         }
         if (!StringUtils.isEmpty(queryTemplateRequest.getTemplateFileId())) {
             Pattern pattern = Pattern.compile("^.*" + queryTemplateRequest.getTemplateFileId() + ".*$", Pattern.CASE_INSENSITIVE);
@@ -85,7 +99,7 @@ public class CmsTemplateService {
 
     //3.编辑模板
     public CmsTemplateResponseResult updateTemplate(String id, CmsTemplate cmsTemplate) {
-        if (id != null) {//此时传递来的参数存在主键 说明是编辑
+        if (StringUtils.isNotEmpty(id)) {//此时传递来的参数存在主键 说明是编辑
             CmsTemplateResponseResult byId = findById(id);
             if (byId.getCode() != 24008) {//表示模板存在
                 cmsTemplate.setTemplateId(id);
@@ -94,7 +108,7 @@ public class CmsTemplateService {
                     return new CmsTemplateResponseResult(CommonCode.SUCCESS, cmsTemplate);
                 }
             }
-        }else{
+        } else {
             return new CmsTemplateResponseResult(CommonCode.INVALID_PARAM, null);//非法参数
         }
         return new CmsTemplateResponseResult(CommonCode.SERVER_ERROR, null);//其他错误
@@ -103,8 +117,9 @@ public class CmsTemplateService {
     //4.删除模板
     public CmsTemplateResponseResult deleteTemplate(String id) {
         CmsTemplateResponseResult byId = this.findById(id);
-        if (byId.getCode() != 24000) {//存在  自定义24008表示模板不存在
-            cmsTemplateRepository.deleteById(id);
+        if (byId.getCode() != 24000) {//存在  自定义24008表示模板信息不存在
+            cmsTemplateRepository.deleteById(id);//删除模板信息
+            this.deleteTemplateFile(byId.getData().getTemplateFileId());//删除模板文件
             return new CmsTemplateResponseResult(CommonCode.SUCCESS, null);
         }
         return new CmsTemplateResponseResult(CommonCode.FAIL, null);
@@ -116,9 +131,96 @@ public class CmsTemplateService {
         Optional<CmsTemplate> byId = cmsTemplateRepository.findById(id);
         if (byId.isPresent()) {//java8 特性 判断当前对象是否为空
             return new CmsTemplateResponseResult(CommonCode.SUCCESS, byId.get());
-        }else if(!byId.isPresent()){//否则返回模板不存在
+        } else if (!byId.isPresent()) {//否则返回模板不存在
             return new CmsTemplateResponseResult(CmsCode.CMS_FINDPAGE_NotEXISTSNAME, null);
         }
         return new CmsTemplateResponseResult(CommonCode.SERVER_ERROR, null);
+    }
+
+    //6.上传模板文件到GridFS中
+    public String uploadTemplateFile(String url) {
+        if (StringUtils.isNotEmpty(url)) {
+            try {
+                //对路径中的中文处理
+                String fileUrl = url.substring(0, url.lastIndexOf("."));
+                String str[] = fileUrl.split("/");
+                for (int i = 0; i < str.length; i++) {
+                    Pattern p = Pattern.compile("[\u4e00-\u9fa5]");
+                    Matcher m = p.matcher(str[i]);
+                    if (m.find()) {
+                        url = url.replaceFirst(str[i], URLEncoder.encode(str[i], "UTF-8"));
+                    }
+                }
+                //获取文件名
+                int index = url.lastIndexOf('/');
+                String fileName = url.substring(index + 1, url.length());
+                File file = new File(url); //这里的url是正斜杠 /a/b
+                FileInputStream fileInputStream = new FileInputStream(file);
+                ObjectId id = gridFsTemplate.store(fileInputStream, fileName);//上传成功 返回文件id
+                fileInputStream.close();
+                if (StringUtils.isNotEmpty(id.toString())) {
+                    return id.toString();
+                }
+            } catch (Exception e) {
+                return JSONObject.toJSONString(new ResponseResult(CmsCode.CMS_UPLOAD_URL_ERROR));
+            }
+        } else {
+            return JSONObject.toJSONString(new ResponseResult(CommonCode.INVALID_PARAM));
+        }
+        return null;
+    }
+
+    //7.读取模板文件内容
+    public String readTemplateFile(String id,int type) throws IOException {
+        //根据文件id查询文件对象 判断是否存在
+        GridFSFile file = gridFsTemplate.findOne(Query.query(Criteria.where("_id").is(id)));
+        if (file != null) {
+            //打开一个下载流对象
+            GridFSDownloadStream downloadStream = gridFSBucket.openDownloadStream(file.getObjectId());
+            //创建GridFsResource对象，获取流
+            GridFsResource gridFsResource = new GridFsResource(file, downloadStream);
+            //使用Apache的IO工具包 从流中取数据
+            String content = IOUtils.toString(gridFsResource.getInputStream(), "utf-8");
+           if(type==0){//返回字符串
+               return content;
+           }else if (type==1){//下载文件
+               InputStream inputStream = IOUtils.toInputStream(content);
+               //导出到本地桌面
+               FileSystemView fsv = FileSystemView.getFileSystemView();
+               File com=fsv.getHomeDirectory();
+               String absolutePath = com.getAbsolutePath();
+               OutputStream outputStream = new FileOutputStream(new File(absolutePath+"/"+System.currentTimeMillis()+".ftl"));
+               int copy = IOUtils.copy(inputStream, outputStream);
+               if (copy <= 0) {//保存失败
+                   outputStream.close();
+                   return JSONObject.toJSONString(new ResponseResult(CommonCode.EXPORT_fAIL));
+               }else {
+                   outputStream.close();
+                   return JSONObject.toJSONString(new ResponseResult(CommonCode.EXPORT_SUCCESS));
+               }
+           }
+        } else {
+            return JSONObject.toJSONString(new ResponseResult(CmsCode.CMS_TEMPLATEFILE_NotEXISTS));
+        }
+        return null;
+    }
+
+    //8.删除模板文件
+    public String deleteTemplateFile(String id) {
+        //根据文件id删除fs.files和fs.chunks中的记录
+        if (StringUtils.isNotEmpty(id)) {
+            //根据文件id查询文件对象 判断是否存在
+            GridFSFile file = gridFsTemplate.findOne(Query.query(Criteria.where("_id").is(id)));
+            if (file != null) {
+                gridFsTemplate.delete(Query.query(Criteria.where("_id").is(id)));
+            } else {
+                //ExceptionCast.cast(CmsCode.CMS_TEMPLATEFILE_NotEXISTS);
+                return JSONObject.toJSONString(new ResponseResult(CmsCode.CMS_TEMPLATEFILE_NotEXISTS));
+            }
+        } else {
+            // ExceptionCast.cast(CommonCode.INVALID_PARAM);
+            return JSONObject.toJSONString(new ResponseResult(CommonCode.INVALID_PARAM));
+        }
+        return null;
     }
 }

@@ -14,6 +14,9 @@ public class QueryTemplateRequest {
     //站点id
     @ApiModelProperty("站点id")
     private String siteId;
+    //模版id
+    @ApiModelProperty("模版id")
+    private String templateId;
     //模版名称
     @ApiModelProperty("模版名称")
     private String templateName;

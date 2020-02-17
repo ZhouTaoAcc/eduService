@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Classname CmsConfigController
- * @Description TODO
+ * @Description TODO 获取数据模型 controller
  * @Date 2020/2/14 14:29
  * @Created by zhoutao
  */
