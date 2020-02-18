@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @Classname GridFsConfig
- * @Description 配置GridFSBucket 用于返回基于MongoDB的GridFs文件系统的流对象
+ * @Description 配置GridFSBucket 用于返回基于指定数据库的GridFs文件系统的流对象
  * @Date 2020/2/15 15:21
  * @Created by zhoutao
  */

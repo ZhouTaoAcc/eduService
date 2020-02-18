@@ -60,9 +60,8 @@ public class CmsTemplateService {
         Pageable pageable = PageRequest.of(pageNo, pageSize, sort);
         Query query = new Query();
         /*动态拼接查询条件*/
-        if (!StringUtils.isEmpty(queryTemplateRequest.getTemplateId())) {
-            Pattern pattern = Pattern.compile("^" + queryTemplateRequest.getTemplateId() + "$", Pattern.CASE_INSENSITIVE);
-            query.addCriteria(Criteria.where("templateId").regex(pattern));
+        if (!StringUtils.isEmpty(queryTemplateRequest.getSiteId())) {
+            query.addCriteria(Criteria.where("siteId").is(queryTemplateRequest.getSiteId()));
         }
         if (!StringUtils.isEmpty(queryTemplateRequest.getTemplateFileId())) {
             Pattern pattern = Pattern.compile("^.*" + queryTemplateRequest.getTemplateFileId() + ".*$", Pattern.CASE_INSENSITIVE);
@@ -117,7 +116,7 @@ public class CmsTemplateService {
     //4.删除模板
     public CmsTemplateResponseResult deleteTemplate(String id) {
         CmsTemplateResponseResult byId = this.findById(id);
-        if (byId.getCode() != 24000) {//存在  自定义24008表示模板信息不存在
+        if (byId.getCode() != 24009) {//存在  自定义24009表示模板信息不存在
             cmsTemplateRepository.deleteById(id);//删除模板信息
             this.deleteTemplateFile(byId.getData().getTemplateFileId());//删除模板文件
             return new CmsTemplateResponseResult(CommonCode.SUCCESS, null);
@@ -132,7 +131,7 @@ public class CmsTemplateService {
         if (byId.isPresent()) {//java8 特性 判断当前对象是否为空
             return new CmsTemplateResponseResult(CommonCode.SUCCESS, byId.get());
         } else if (!byId.isPresent()) {//否则返回模板不存在
-            return new CmsTemplateResponseResult(CmsCode.CMS_FINDPAGE_NotEXISTSNAME, null);
+            return new CmsTemplateResponseResult(CmsCode.CMS_GENERATEHTML_TEMPLATEI_NotEXIST, null);
         }
         return new CmsTemplateResponseResult(CommonCode.SERVER_ERROR, null);
     }
@@ -189,7 +188,7 @@ public class CmsTemplateService {
                FileSystemView fsv = FileSystemView.getFileSystemView();
                File com=fsv.getHomeDirectory();
                String absolutePath = com.getAbsolutePath();
-               OutputStream outputStream = new FileOutputStream(new File(absolutePath+"/"+System.currentTimeMillis()+".ftl"));
+               OutputStream outputStream = new FileOutputStream(new File(absolutePath+"/template_"+System.currentTimeMillis()+".ftl"));
                int copy = IOUtils.copy(inputStream, outputStream);
                if (copy <= 0) {//保存失败
                    outputStream.close();
@@ -214,11 +213,9 @@ public class CmsTemplateService {
             if (file != null) {
                 gridFsTemplate.delete(Query.query(Criteria.where("_id").is(id)));
             } else {
-                //ExceptionCast.cast(CmsCode.CMS_TEMPLATEFILE_NotEXISTS);
                 return JSONObject.toJSONString(new ResponseResult(CmsCode.CMS_TEMPLATEFILE_NotEXISTS));
             }
         } else {
-            // ExceptionCast.cast(CommonCode.INVALID_PARAM);
             return JSONObject.toJSONString(new ResponseResult(CommonCode.INVALID_PARAM));
         }
         return null;

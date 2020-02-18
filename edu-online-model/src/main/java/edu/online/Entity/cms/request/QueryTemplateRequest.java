@@ -4,7 +4,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
- * @Classname QueryPageRequest
+ * @Classname QueryTemplateRequest
  * @Description pojo 封装类 介于view和controller之间 用于数据传递
  * @Date 2019/12/8 17:45
  * @Created by zhoutao

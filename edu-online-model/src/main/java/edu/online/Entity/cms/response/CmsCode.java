@@ -19,10 +19,12 @@ public enum CmsCode implements ResultCode {
     CMS_COURSE_PERVIEWISNULL(false,24007,"预览页面为空！"),
     CMS_GENERATEHTML_TEMPLATEI_EXIST(false,24008,"模板信息已存在！"),
     CMS_GENERATEHTML_TEMPLATEI_NotEXIST(false,24009,"模板信息不存在！"),
-    CMS_UPLOAD_TEMPLATEFILE_FIAL(false,240010,"上传模板文件失败！"),
-    CMS_DELETE_TEMPLATEFILE_FIAL(false,240013,"删除模板文件失败！"),
+    CMS_UPLOAD_TEMPLATEFILE_FIAL(false,24010,"上传模板文件失败！"),
+    CMS_DELETE_TEMPLATEFILE_FIAL(false,24013,"删除模板文件失败！"),
     CMS_TEMPLATEFILE_NotEXISTS(false,24011,"模板文件不存在！"),
-    CMS_UPLOAD_URL_ERROR(false,24012,"上传失败,路径不正确！");
+    CMS_UPLOAD_URL_ERROR(false,24012,"上传失败,路径不正确！"),
+    CMS_Site_EXISTS(false,24014,"该站点已存在！"),
+    CMS_Site_NotEXISTS(false,24015,"该站点不存在！");
     boolean success;
     //操作代码
     int code;
