@@ -37,6 +37,6 @@ public interface CmsSiteControllerApi {
     public ResponseResult deleteSite(String id);
     //5.根据id查询站点
     @ApiOperation("查询站点")
-    public ResponseResult findById(String id);
+    public CmsSite findById(String id);
 
 } 

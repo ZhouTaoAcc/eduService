@@ -50,7 +50,7 @@ public class CmsTemplateController implements CmsTemplateControllerApi {
 
     @Override
     @GetMapping("/findById/{id}")
-    public CmsTemplateResponseResult findById(@PathVariable String id) {
+    public CmsTemplate findById(@PathVariable String id) {
         return cmsTemplateService.findById(id);
     }
 

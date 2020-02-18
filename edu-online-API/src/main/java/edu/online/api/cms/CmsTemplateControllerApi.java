@@ -39,7 +39,7 @@ public interface CmsTemplateControllerApi {
     public CmsTemplateResponseResult deleteTemplate(String id);
     //5.根据id查询模板
     @ApiOperation("查询模板")
-    public CmsTemplateResponseResult findById(String id);
+    public CmsTemplate findById(String id);
 
     /*从GridFS中对文件操作*/
 

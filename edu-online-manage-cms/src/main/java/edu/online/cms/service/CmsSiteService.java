@@ -76,8 +76,8 @@ public class CmsSiteService {
     }
     public ResponseResult updateSite(String id, CmsSite cmsSite) {
         if (id != null) {//此时传递来的参数存在主键 说明是编辑
-            ResponseResult byId = findById(id);
-            if (byId.getCode() != 24014) {//表示站点存在 可以编辑
+            CmsSite byId = this.findById(id);
+            if (byId!=null) {//存在
                 cmsSite.setSiteId(id);
                 CmsSite save = cmsSiteRepository.save(cmsSite);
                 if (save != null) {
@@ -92,8 +92,8 @@ public class CmsSiteService {
 
     //4.删除站点
     public ResponseResult deleteSite(String id) {
-        ResponseResult byId = this.findById(id);
-        if (byId.getCode() != 24015) {//存在  24014表示站点存在
+        CmsSite byId = this.findById(id);
+        if (byId!=null) {//存在
             cmsSiteRepository.deleteById(id);
             return new ResponseResult(CommonCode.SUCCESS);
         }
@@ -101,15 +101,12 @@ public class CmsSiteService {
     }
 
     //5.根据Id查询站点
-    public ResponseResult findById(String id) {
+    public CmsSite findById(String id) {
         //先判断站点是否存在
         Optional<CmsSite> byId = cmsSiteRepository.findById(id);
         if (byId.isPresent()) {//java8 特性 判断当前对象是否为空
-            return new ResponseResult(CommonCode.SUCCESS);
-        } else if (!byId.isPresent()) {//否则返回站点不存在
-            return new ResponseResult(CmsCode.CMS_Site_NotEXISTS);
+            return byId.get();
         }
-        return new ResponseResult(CommonCode.SERVER_ERROR);
+        return null;
     }
-
 }

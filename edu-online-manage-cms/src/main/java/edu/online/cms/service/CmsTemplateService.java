@@ -99,8 +99,8 @@ public class CmsTemplateService {
     //3.编辑模板
     public CmsTemplateResponseResult updateTemplate(String id, CmsTemplate cmsTemplate) {
         if (StringUtils.isNotEmpty(id)) {//此时传递来的参数存在主键 说明是编辑
-            CmsTemplateResponseResult byId = findById(id);
-            if (byId.getCode() != 24008) {//表示模板存在
+            CmsTemplate template = this.findById(id);
+            if (template!= null) {//存在
                 cmsTemplate.setTemplateId(id);
                 CmsTemplate save = cmsTemplateRepository.save(cmsTemplate);
                 if (save != null) {
@@ -115,25 +115,23 @@ public class CmsTemplateService {
 
     //4.删除模板
     public CmsTemplateResponseResult deleteTemplate(String id) {
-        CmsTemplateResponseResult byId = this.findById(id);
-        if (byId.getCode() != 24009) {//存在  自定义24009表示模板信息不存在
+        CmsTemplate template = this.findById(id);
+        if (template!= null) {//存在
             cmsTemplateRepository.deleteById(id);//删除模板信息
-            this.deleteTemplateFile(byId.getData().getTemplateFileId());//删除模板文件
+            this.deleteTemplateFile(template.getTemplateFileId());//删除模板文件
             return new CmsTemplateResponseResult(CommonCode.SUCCESS, null);
         }
         return new CmsTemplateResponseResult(CommonCode.FAIL, null);
     }
 
     //5.根据Id查询模板
-    public CmsTemplateResponseResult findById(String id) {
+    public CmsTemplate findById(String id) {
         //先判断模板是否存在
         Optional<CmsTemplate> byId = cmsTemplateRepository.findById(id);
         if (byId.isPresent()) {//java8 特性 判断当前对象是否为空
-            return new CmsTemplateResponseResult(CommonCode.SUCCESS, byId.get());
-        } else if (!byId.isPresent()) {//否则返回模板不存在
-            return new CmsTemplateResponseResult(CmsCode.CMS_GENERATEHTML_TEMPLATEI_NotEXIST, null);
+            return byId.get();
         }
-        return new CmsTemplateResponseResult(CommonCode.SERVER_ERROR, null);
+        return null;
     }
 
     //6.上传模板文件到GridFS中
@@ -170,7 +168,7 @@ public class CmsTemplateService {
     }
 
     //7.读取模板文件内容
-    public String readTemplateFile(String id,int type) throws IOException {
+    public String readTemplateFile(String id, int type) throws IOException {
         //根据文件id查询文件对象 判断是否存在
         GridFSFile file = gridFsTemplate.findOne(Query.query(Criteria.where("_id").is(id)));
         if (file != null) {
@@ -180,24 +178,26 @@ public class CmsTemplateService {
             GridFsResource gridFsResource = new GridFsResource(file, downloadStream);
             //使用Apache的IO工具包 从流中取数据
             String content = IOUtils.toString(gridFsResource.getInputStream(), "utf-8");
-           if(type==0){//返回字符串
-               return content;
-           }else if (type==1){//下载文件
-               InputStream inputStream = IOUtils.toInputStream(content);
-               //导出到本地桌面
-               FileSystemView fsv = FileSystemView.getFileSystemView();
-               File com=fsv.getHomeDirectory();
-               String absolutePath = com.getAbsolutePath();
-               OutputStream outputStream = new FileOutputStream(new File(absolutePath+"/template_"+System.currentTimeMillis()+".ftl"));
-               int copy = IOUtils.copy(inputStream, outputStream);
-               if (copy <= 0) {//保存失败
-                   outputStream.close();
-                   return JSONObject.toJSONString(new ResponseResult(CommonCode.EXPORT_fAIL));
-               }else {
-                   outputStream.close();
-                   return JSONObject.toJSONString(new ResponseResult(CommonCode.EXPORT_SUCCESS));
-               }
-           }
+            if (type == 0) {//返回字符串
+                return content;
+            } else if (type == 1) {//下载文件
+                InputStream inputStream = IOUtils.toInputStream(content);
+                //导出到本地桌面
+                FileSystemView fsv = FileSystemView.getFileSystemView();
+                File com = fsv.getHomeDirectory();
+                String absolutePath = com.getAbsolutePath();
+                OutputStream outputStream = new FileOutputStream(new File(absolutePath + "/template_" + System.currentTimeMillis() + ".ftl"));
+                int copy = IOUtils.copy(inputStream, outputStream);
+                if (copy <= 0) {//保存失败
+                    inputStream.close();
+                    outputStream.close();
+                    return JSONObject.toJSONString(new ResponseResult(CommonCode.EXPORT_fAIL));
+                } else {
+                    inputStream.close();
+                    outputStream.close();
+                    return JSONObject.toJSONString(new ResponseResult(CommonCode.EXPORT_SUCCESS));
+                }
+            }
         } else {
             return JSONObject.toJSONString(new ResponseResult(CmsCode.CMS_TEMPLATEFILE_NotEXISTS));
         }

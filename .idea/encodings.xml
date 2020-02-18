@@ -4,9 +4,11 @@
     <file url="file://$PROJECT_DIR$/edu-online-API" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-online-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-online-manage-cms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-online-manage-cms-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-online-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-online-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/edu-online-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu.online.cms_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/testFreemaker" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

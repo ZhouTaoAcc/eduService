@@ -1,6 +1,6 @@
 spring:
   application:
-    name: edu-online-manage-cms //服务名称
+    name: edu-online-manage-cms #服务名称
   data:
     mongodb:
       uri: mongodb://localhost:27017
@@ -9,5 +9,11 @@ spring:
     cache: false
     settings:
       template_update_delay: 0
+  rabbitmq:
+      host: 127.0.0.1
+      port: 5672
+      username: guest
+      password: guest
+      virtual-host: /
 server:
   port: 31001

@@ -46,7 +46,7 @@ public class CmsSiteController implements CmsSiteControllerApi{
 
     @Override
     @GetMapping("/findById/{id}")
-    public ResponseResult findById(@PathVariable String id) {
+    public CmsSite findById(@PathVariable String id) {
         return cmsSiteService.findById(id);
     }
 }
