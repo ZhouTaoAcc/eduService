@@ -15,7 +15,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EntityScan("edu.online.Entity.cms")//扫描实体类
 @ComponentScan(basePackages = {"edu.online.cms"})//扫描本项目下的所有类（不写可能404）
-@ComponentScan(basePackages="edu.online.cms.client")
+@ComponentScan(basePackages={"edu.online.cms.client"})
 public class ManageCmsClientApplication {
     public static void main(String[] args) {
         SpringApplication.run(ManageCmsClientApplication.class);

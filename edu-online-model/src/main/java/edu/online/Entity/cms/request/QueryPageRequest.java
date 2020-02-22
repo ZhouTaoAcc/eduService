@@ -29,5 +29,5 @@ public class QueryPageRequest {
     //别名
     @ApiModelProperty("页面别名")
     private String pageAliase;
-
+    //....
 }

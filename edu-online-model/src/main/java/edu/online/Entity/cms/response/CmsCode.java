@@ -24,7 +24,8 @@ public enum CmsCode implements ResultCode {
     CMS_TEMPLATEFILE_NotEXISTS(false,24011,"模板文件不存在！"),
     CMS_UPLOAD_URL_ERROR(false,24012,"上传失败,路径不正确！"),
     CMS_Site_EXISTS(false,24014,"该站点已存在！"),
-    CMS_Site_NotEXISTS(false,24015,"该站点不存在！");
+    CMS_Site_NotEXISTS(false,24015,"该站点不存在！"),
+    SYS_DICTIONARY_EXISTS(false,24016,"字典类型值已存在！");
     boolean success;
     //操作代码
     int code;

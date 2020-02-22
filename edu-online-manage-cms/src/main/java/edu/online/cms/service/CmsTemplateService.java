@@ -181,7 +181,7 @@ public class CmsTemplateService {
             if (type == 0) {//返回字符串
                 return content;
             } else if (type == 1) {//下载文件
-                InputStream inputStream = IOUtils.toInputStream(content);
+                InputStream inputStream = IOUtils.toInputStream(content,"utf-8");
                 //导出到本地桌面
                 FileSystemView fsv = FileSystemView.getFileSystemView();
                 File com = fsv.getHomeDirectory();

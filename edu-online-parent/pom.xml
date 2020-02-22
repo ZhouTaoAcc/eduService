@@ -19,10 +19,7 @@
         <tomcat.version>8.5.28</tomcat.version>
         <spring-boot.version>2.0.1.RELEASE</spring-boot.version>
         <springframework.version>5.0.5.RELEASE</springframework.version>
-        <mybatis-spring-boot.version>1.3.1</mybatis-spring-boot.version>
-        <druid.version>1.1.6</druid.version>
         <mysql-connector-java.version>5.1.45</mysql-connector-java.version>
-
         <commons-io.version>2.6</commons-io.version>
         <org.apache.commons.io.version>1.3.2</org.apache.commons.io.version>
         <commons-fileupload.version>1.3.3</commons-fileupload.version>
@@ -50,22 +47,6 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-connector-java.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>${mybatis-spring-boot.version}</version>
-        </dependency>
-        <!--分页助手-->
-        <dependency>
-            <groupId>com.github.pagehelper</groupId>
-            <artifactId>pagehelper-spring-boot-starter</artifactId>
-            <version>1.2.4</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>${druid.version}</version>
         </dependency>
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
@@ -125,13 +106,13 @@
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
         </dependency>
-        <!--开源的轻量级分布式文件系统-->
+        <!--开源的轻量级分布式文件系统fastdfs-->
         <dependency>
             <groupId>net.oschina.zcx7878</groupId>
             <artifactId>fastdfs-client-java</artifactId>
             <version>${fastdfs-client-java.version}</version>
         </dependency>
-
+        <!--全文检索 索引数据库elasticsearch-->
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
@@ -153,7 +134,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
-            <version> 2.0.6.RELEASE</version>
+            <version>2.0.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.0.6.RELEASE</version>
         </dependency>
     </dependencies>
     <build>

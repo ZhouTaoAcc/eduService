@@ -17,11 +17,12 @@ import java.util.Optional;
 public class CmsConfigService {
     @Autowired
     private CmsConfigRepository cmsConfigRepository;
-        public CmsConfig findById(String id){
-            Optional<CmsConfig> byId = cmsConfigRepository.findById(id);
-            if(byId.isPresent()){
-                return  byId.get();
-            }
-            return null;
+
+    public CmsConfig findById(String id) {
+        Optional<CmsConfig> byId = cmsConfigRepository.findById(id);
+        if (byId.isPresent()) {
+            return byId.get();
         }
+        return null;
+    }
 }

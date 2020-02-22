@@ -2,7 +2,6 @@ package edu.online.cms.service;
 
 import com.alibaba.fastjson.JSONObject;
 import edu.online.Entity.cms.CmsPage;
-import edu.online.Entity.cms.CmsSite;
 import edu.online.Entity.cms.CmsTemplate;
 import edu.online.Entity.cms.request.QueryPageRequest;
 import edu.online.Entity.cms.response.CmsCode;
@@ -299,21 +298,19 @@ public class CmsPageService {
      * 1. 根据pageId查询cmsPage得到静态文件的id 站点id 页面物理路径 页面名称
      * 2.根据站点id得到站点物理路径
      * 3.根据静态文件的id从gridfs下载文件
-     * 4.把文件保存到页面的物理路径中（这里的页面物理路径=站点物理路径+页面物理路径+页面名称）
+     * 4.把文件保存到页面的物理路径中（这里的页面物理路径=页面物理路径+页面名称）
      */
     public void savePageToServerPath(String pageId) {
         //根据pageId查询cmsPage
         CmsPage page = this.findById(pageId);
         //从cmsPage中获取静态文件id htmlFileId
         String htmlFileId = page.getHtmlFileId();
-        String siteId = page.getSiteId();
         InputStream inputStream = null;
         FileOutputStream fileOutputStream = null;
         try {
             String htmlContent = cmsTemplateService.readTemplateFile(htmlFileId, 0);
-            CmsSite site = cmsSiteService.findById(siteId);
-            //页面物理路径
-            String pagePath = site.getSitePhysicalPath() + page.getPagePhysicalPath() + page.getPageName();
+            //页面物理路径 F:/a/b/c.html
+            String pagePath =page.getPagePhysicalPath() + page.getPageName();
             //把静态文件内容转入输入流中
             inputStream = IOUtils.toInputStream(htmlContent,"utf-8");
             fileOutputStream = new FileOutputStream(new File(pagePath));
