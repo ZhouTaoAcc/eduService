@@ -1,19 +1,80 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="edu.online.course.dao.CourseMapper"><!--namespace是用于绑定mapper接口的，即面向接口编程-->
-    <select id="findCourseBaseList" parameterType="edu.online.Entity.course.request.CourseBaseRequest"
-            resultType="edu.online.Entity.course.vo.CourseBaseVO">
+    <!--课程基本信息-->
+    <!--<select id="findCourseBaseList" parameterType="edu.online.Entity.course.request.CourseBaseRequest"-->
+    <!--resultType="edu.online.Entity.course.vo.CourseBaseVO">-->
+    <!--SELECT-->
+    <!--course_base.*,-->
+    <!--(SELECT pic-->
+    <!--FROM course_pic-->
+    <!--WHERE courseid = course_base.id) pic-->
+    <!--FROM course_base-->
+    <!--</select>-->
+    <!--<select id="findCourseBaseById" parameterType="java.lang.String"-->
+    <!--resultType="edu.online.Entity.course.CourseBase">-->
+    <!--SELECT *-->
+    <!--FROM course_base-->
+    <!--WHERE id = #{id}-->
+    <!--</select>-->
+    <!--课程分类查询-->
+    <resultMap id="CategoryVO" type="edu.online.Entity.course.vo.CategoryVO">
+        <id property="id" column="one_id"/>
+        <result property="name" column="one_name"/>
+        <result property="label" column="one_label"/>
+        <result property="isshow" column="one_isshow"/>
+        <result property="isleaf" column="one_isleaf"/>
+        <result property="orderby" column="one_orderby"/>
+        <result property="parentid" column="one_parentid"/>
+        <collection property="children" ofType="edu.online.Entity.course.vo.CategoryVO">
+            <id property="id" column="two_id"/>
+            <result property="name" column="two_name"/>
+            <result property="label" column="two_label"/>
+            <result property="isshow" column="two_isshow"/>
+            <result property="isleaf" column="two_isleaf"/>
+            <result property="orderby" column="two_orderby"/>
+            <result property="parentid" column="two_parentid"/>
+            <collection property="children" ofType="edu.online.Entity.course.vo.CategoryVO">
+                <id property="id" column="three_id"/>
+                <result property="name" column="three_name"/>
+                <result property="label" column="three_label"/>
+                <result property="isshow" column="three_isshow"/>
+                <result property="isleaf" column="three_isleaf"/>
+                <result property="orderby" column="three_orderby"/>
+                <result property="parentid" column="three_parentid"/>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="findList" resultMap="CategoryVO">
         SELECT
-            course_base.*,
-            (SELECT pic
-             FROM course_pic
-             WHERE courseid = course_base.id) pic
-        FROM course_base
-    </select>
-    <select id="findCourseBaseById" parameterType="java.lang.String"
-            resultType="edu.online.Entity.course.CourseBase">
-        SELECT *
-        FROM course_base
-        WHERE id = #{id}
+            a.id       one_id,
+            a.name     one_name,
+            a.label    one_label,
+            a.isshow   one_isshow,
+            a.isleaf   one_isleaf,
+            a.orderby  one_orderby,
+            a.parentid one_parentid,
+            b.id       two_id,
+            b.name     two_name,
+            b.label    two_label,
+            b.isshow   two_isshow,
+            b.isleaf   two_isleaf,
+            b.orderby  two_orderby,
+            b.parentid two_parentid,
+            c.id       three_id,
+            c.name     three_name,
+            c.label    three_label,
+            c.isshow   three_isshow,
+            c.isleaf   three_isleaf,
+            c.orderby  three_orderby,
+            c.parentid three_parentid
+        FROM category a LEFT JOIN category b
+                ON a.id = b.parentid
+            LEFT JOIN category c
+                ON b.id = c.parentid
+        WHERE a.parentid = '0'
+        ORDER BY a.orderby,
+            b.orderby,
+            c.orderby
     </select>
 </mapper>

@@ -20,6 +20,7 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -65,7 +66,7 @@ public class SysDictionaryService {
     //增加字典
     public ResponseResult addDictionary(QueryDictionaryRequest queryDictionaryRequest) {
         SysDictionary sd = findByType(queryDictionaryRequest.getDType());
-        if(sd!=null){
+        if (sd != null) {
             return new ResponseResult(CmsCode.SYS_DICTIONARY_EXISTS);
         }
         SysDictionary sysDictionary = new SysDictionary();
@@ -84,12 +85,12 @@ public class SysDictionaryService {
     }
 
     //编辑字典
-    public ResponseResult updateDictionary(String type, String id,QueryDictionaryRequest queryDictionaryRequest) {
+    public ResponseResult updateDictionary(String type, String id, QueryDictionaryRequest queryDictionaryRequest) {
         SysDictionary sd = findByType(type);
-        if(sd==null){
+        if (sd == null) {
             return new ResponseResult(CommonCode.INVALID_PARAM);
         }
-         List<SysDictionaryValue> children = sd.getChildren();
+        List<SysDictionaryValue> children = sd.getChildren();
         for (SysDictionaryValue obj : children) {
             if (obj.getId().equals(id)) {
                 obj.setSdName(queryDictionaryRequest.getSdName());
@@ -113,12 +114,53 @@ public class SysDictionaryService {
         return new ResponseResult(CommonCode.SUCCESS);
     }
 
-
-    public ResponseResult deleteDictionary(String id){
-        if(StringUtils.isEmpty(id)){
+    //删除字典
+    public ResponseResult deleteDictionary(String id) {
+        if (StringUtils.isEmpty(id)) {
             return new ResponseResult(CommonCode.INVALID_PARAM);
         }
         sysDictionaryRepository.deleteById(id);
+        return new ResponseResult(CommonCode.SUCCESS);
+    }
+
+    //新增一个子节点
+    public ResponseResult addDictionaryItem(String type, QueryDictionaryRequest queryDictionaryRequest) {
+        SysDictionary sysDictionary = this.findByType(type);
+        if (sysDictionary == null) {
+            return new ResponseResult(CommonCode.INVALID_PARAM);
+        }
+        List<SysDictionaryValue> children = sysDictionary.getChildren();
+        SysDictionaryValue sd = new SysDictionaryValue();
+        sd.setId(queryDictionaryRequest.getSdId());
+        sd.setSdName(queryDictionaryRequest.getSdName());
+        sd.setSdType(queryDictionaryRequest.getSdType());
+        sd.setSdStatus(queryDictionaryRequest.getSdStatus());
+        children.add(sd);//向children集合里增加一项
+        mongoTemplate.save(sysDictionary);
+        return new ResponseResult(CommonCode.SUCCESS);
+    }
+
+    //删除一个子节点
+    public ResponseResult deleteDictionaryItem(String type, String id) {
+        SysDictionary sysDictionary = this.findByType(type);
+        if (sysDictionary == null) {
+            return new ResponseResult(CommonCode.INVALID_PARAM);
+        }
+        List<SysDictionaryValue> children = sysDictionary.getChildren();
+       /* for (SysDictionaryValue sysDictionaryValue : children) {
+            if (sysDictionaryValue.getId().equals(id)) {
+                children.remove(sysDictionaryValue);
+            }
+        }这种会有异常 遍历list的过程中，如果修改了元素，会导致list中索引与对应的值不同
+        */
+        Iterator<SysDictionaryValue> iterator = children.iterator();
+        while (iterator.hasNext()){
+             SysDictionaryValue sd = iterator.next();
+            if (sd.getId().equals(id)) {
+                iterator.remove();//注意
+            }
+        }
+        mongoTemplate.save(sysDictionary);
         return new ResponseResult(CommonCode.SUCCESS);
     }
 }

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  * @Classname CourseBaseRepository
- * @Description TODO
+ * @Description
  * @Date 2020/2/20 13:58
  * @Created by zhoutao
  */

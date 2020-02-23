@@ -16,7 +16,7 @@ import io.swagger.annotations.ApiOperation;
 @Api(value = "数据字典管理接口", description = "数据字典管理，增删改查")
 public interface SysDictionaryControllerApi {
     @ApiOperation(value = "分页查询字典")
-    public QueryResponseResult findList(int pageNo, int pageSize,QueryDictionaryRequest queryDictionaryRequest);
+    public QueryResponseResult findList(int pageNo, int pageSize, QueryDictionaryRequest queryDictionaryRequest);
 
     @ApiOperation(value = "根据字典类型值查询字典")
     public SysDictionary findByType(String type);
@@ -24,12 +24,17 @@ public interface SysDictionaryControllerApi {
     @ApiOperation(value = "新增字典")
     public ResponseResult addDictionary(QueryDictionaryRequest queryDictionaryRequest);
 
+    @ApiOperation(value = "新增字典项")
+    public ResponseResult addDictionaryItem(String type,QueryDictionaryRequest queryDictionaryRequest);
+
     @ApiOperation(value = "编辑字典")
     public ResponseResult updateDictionary(String type, String id, QueryDictionaryRequest queryDictionaryRequest);
 
     @ApiOperation("根据字典类型值设置状态")
-    public ResponseResult setStatusByType(String type, String id,String status);
+    public ResponseResult setStatusByType(String type, String id, String status);
+
     @ApiOperation(value = "删除字典")
     public ResponseResult deleteDictionary(String id);
-
+    @ApiOperation(value = "删除字典项")
+    public ResponseResult deleteDictionaryItem(String type,String id  );
 }

@@ -56,4 +56,15 @@ public class SysDictionaryController implements SysDictionaryControllerApi {
     public ResponseResult deleteDictionary(@PathVariable String id) {
         return sysDictionaryService.deleteDictionary(id);
     }
+
+    @Override
+    @PostMapping("/addItem/{type}")
+    public ResponseResult addDictionaryItem(@PathVariable String type ,@RequestBody  QueryDictionaryRequest queryDictionaryRequest) {
+        return sysDictionaryService.addDictionaryItem(type,queryDictionaryRequest);
+    }
+    @Override
+    @GetMapping("/deleteItem/{type}/{id}")
+    public ResponseResult deleteDictionaryItem(@PathVariable String type,@PathVariable String id  ) {
+        return sysDictionaryService.deleteDictionaryItem(type,id);
+    }
 }

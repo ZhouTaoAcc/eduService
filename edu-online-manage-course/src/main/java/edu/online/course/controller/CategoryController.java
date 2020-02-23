@@ -2,6 +2,8 @@ package edu.online.course.controller;
 
 import edu.online.Entity.course.vo.CategoryVO;
 import edu.online.api.course.CategoryControllerApi;
+import edu.online.course.service.CategoryService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,9 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/course/category")
 public class CategoryController implements CategoryControllerApi {
+    @Autowired
+    CategoryService categoryService;
     @Override
-    @GetMapping("/list")
+    @GetMapping("/tree")
     public CategoryVO findList() {
-        return null;
+        return categoryService.findList();
     }
 }
