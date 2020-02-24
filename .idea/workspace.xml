@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3be42fb7-62a3-4f7b-8227-8fe6826321c1" name="Default" comment="页面列表的增删改查">
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CategoryService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/zt.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/SysDictionaryControllerApi.java" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/SysDictionaryControllerApi.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CategoryControllerApi.java" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CategoryControllerApi.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseBaseControllerApi.java" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseBaseControllerApi.java" />
       <change beforePath="$PROJECT_DIR$/edu-online-API/target/classes/edu/online/api/cms/CmsPageControllerApi.class" afterPath="$PROJECT_DIR$/edu-online-API/target/classes/edu/online/api/cms/CmsPageControllerApi.class" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/SysDictionaryController.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/SysDictionaryController.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/SysDictionaryService.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/SysDictionaryService.java" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/application.yml" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/application.yml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/ManageCmsApplication.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/ManageCmsApplication.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/controller/CmsPageController.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/controller/CmsPageController.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/service/CmsPageService.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/service/CmsPageService.class" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CategoryController.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CategoryController.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseBaseRepository.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseBaseRepository.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMapper.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMapper.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseBaseController.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseBaseController.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/CourseMapper.xml" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/CourseMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseCode.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseCode.java" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/CmsTemplate.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/CmsTemplate.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/request/QueryPageRequest.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/request/QueryPageRequest.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsCode.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsCode.class" />
@@ -57,15 +54,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CourseBaseController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CourseBaseController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseBaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="718">
-              <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state relative-caret-position="315">
+              <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding>
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseBaseControllerApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseBaseControllerApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseBaseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1927#1928#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/CourseMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1096">
+              <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+              <folding>
+                <marker date="1582556752031" expanded="true" signature="1887:2885" ph="SELECT a.id category" />
+                <marker date="1582556752031" expanded="true" signature="3096:3239" ph="SELECT cours... course_base" />
+                <marker date="1582556752031" expanded="true" signature="3096:3273" ph="SELECT cours... course_base" />
+                <marker date="1582556752031" expanded="true" signature="3135:3209" ph="SELECT pic F... course_pic" />
+                <marker date="1582556752031" expanded="true" signature="3427:3485" ph="SELECT * FRO... course_base" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,7 +192,6 @@
         <option value="$PROJECT_DIR$/edu-online-manage-cms/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/ManageCmsClientApplication.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/request/QueryPageRequest.java" />
-        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseCode.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/request/CourseListRequest.java" />
         <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/mapper.fxml" />
         <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/mapper" />
@@ -143,10 +199,8 @@
         <option value="$PROJECT_DIR$/edu-online-manage-course/target/classes/mapper/CourseMapper.xml" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/request/CourseBaseRequest.java" />
         <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/ManageCourseApplication.java" />
-        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseBaseController.java" />
         <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CourseBaseVO.java" />
-        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseBase.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/Catetory.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CategoryVO.java" />
@@ -154,7 +208,6 @@
         <option value="$PROJECT_DIR$/edu-online-manage-course/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-parent/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePic.java" />
-        <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseBaseControllerApi.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/SysDictionary.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/SysDictionaryValue.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/request/QueryDictionaryRequest.java" />
@@ -169,7 +222,11 @@
         <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMapper.java" />
         <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseCode.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java" />
         <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/CourseMapper.xml" />
+        <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseBaseControllerApi.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseBaseController.java" />
       </list>
     </option>
   </component>
@@ -520,6 +577,11 @@
             <id>toString() issuesJava</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -541,7 +603,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -553,57 +614,6 @@
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
               <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
@@ -672,6 +682,18 @@
               <item name="online" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
@@ -785,27 +807,6 @@
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
               <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -858,6 +859,31 @@
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="online" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
@@ -919,16 +945,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/19黑马java/21-微服务教育网学成在线/07-课程管理实战/代码/xcEduService01" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -972,7 +999,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ManageCourseApplication">
+  <component name="RunManager" selected="Spring Boot.ManageCmsApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1237,7 +1264,10 @@
       <workItem from="1582366699895" duration="5547000" />
       <workItem from="1582380473898" duration="8624000" />
       <workItem from="1582426257655" duration="8487000" />
-      <workItem from="1582444130407" duration="4822000" />
+      <workItem from="1582444130407" duration="4932000" />
+      <workItem from="1582519824622" duration="2895000" />
+      <workItem from="1582535781604" duration="715000" />
+      <workItem from="1582552301188" duration="5971000" />
     </task>
     <task id="LOCAL-00001" summary="正则表达式模糊查询">
       <created>1581476573520</created>
@@ -1295,7 +1325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582385758873</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="课程分类查询">
+      <created>1582449041577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582449041577</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1316,7 +1353,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328915000" />
+    <option name="totallyTimeSpent" value="338606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1331,7 +1368,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38127854" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27054796" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25913242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1403,28 +1440,19 @@
     <MESSAGE value="站点管理" />
     <MESSAGE value="页面发布-rabbit消息队列" />
     <MESSAGE value="字典管理 课程查询接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="字典管理 课程查询接口" />
+    <MESSAGE value="课程分类查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="课程分类查询" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="243" />
+      <option name="time" value="244" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/CmsConfigModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/CmsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -1459,17 +1487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="87" column="38" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="38" />
-          <folding>
-            <element signature="method#deletePage#0;class#CmsPageService#0" expanded="false" />
-            <element signature="method#getPageTempleById#0;class#CmsPageService#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1523,7 +1540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1531,20 +1547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="143" column="21" lean-forward="false" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/ManageCmsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#1120#1121#0" expanded="false" />
-            <element signature="e#1185#1186#0" expanded="false" />
-            <element signature="e#1263#1264#0" expanded="false" />
-            <element signature="e#1341#1342#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1583,7 +1585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1591,7 +1592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="170" column="54" lean-forward="false" selection-start-line="170" selection-start-column="50" selection-end-line="170" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1599,7 +1599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1607,7 +1606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-710">
           <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1615,18 +1613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="e#1970#1971#0" expanded="false" />
-            <element signature="e#2035#2036#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/SysDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1641,7 +1627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1649,58 +1634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/SysDictionaryValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/request/QueryDictionaryRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/SysDictionaryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="158" column="40" lean-forward="true" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
-          <folding>
-            <element signature="e#2630#2631#0" expanded="false" />
-            <element signature="e#2694#2695#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/request/CourseBaseRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CourseBaseVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseBaseControllerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1716,50 +1649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/Catetory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CategoryVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1775,12 +1664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1008">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1582447855974" expanded="true" signature="439:600" ph="SELECT cours... course_base" />
-            <marker date="1582447855974" expanded="true" signature="486:570" ph="SELECT pic F... course_pic" />
-            <marker date="1582447855974" expanded="true" signature="754:812" ph="SELECT * FRO... course_base" />
-            <marker date="1582447855974" expanded="true" signature="2502:3500" ph="SELECT a.id category" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1788,18 +1671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1808,9 +1679,9 @@
         <state relative-caret-position="358">
           <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1823,34 +1694,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/SysDictionaryController.java">
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/Catetory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/CourseMapper.xml">
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CategoryVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="504">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/request/CourseBaseRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CourseBaseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="125" column="9" lean-forward="true" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
-            <marker date="1582447863571" expanded="true" signature="445:603" ph="SELECT cours... course_base" />
-            <marker date="1582447863571" expanded="true" signature="490:570" ph="SELECT pic F... course_pic" />
-            <marker date="1582447863571" expanded="true" signature="773:837" ph="SELECT * FRO... course_base" />
-            <marker date="1582447863571" expanded="true" signature="2501:3499" ph="SELECT a.id category" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/ManageCmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/SysDictionaryValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/request/QueryDictionaryRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/SysDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/SysDictionaryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/SysDictionaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="61" column="16" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseBaseControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseBaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        <state relative-caret-position="315">
+          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/CourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1096">
+          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+          <folding>
+            <marker date="1582556752031" expanded="true" signature="1887:2885" ph="SELECT a.id category" />
+            <marker date="1582556752031" expanded="true" signature="3096:3239" ph="SELECT cours... course_base" />
+            <marker date="1582556752031" expanded="true" signature="3096:3273" ph="SELECT cours... course_base" />
+            <marker date="1582556752031" expanded="true" signature="3135:3209" ph="SELECT pic F... course_pic" />
+            <marker date="1582556752031" expanded="true" signature="3427:3485" ph="SELECT * FRO... course_base" />
           </folding>
         </state>
       </provider>

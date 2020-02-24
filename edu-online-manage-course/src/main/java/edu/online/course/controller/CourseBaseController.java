@@ -5,11 +5,9 @@ import edu.online.Entity.course.request.CourseBaseRequest;
 import edu.online.api.course.CourseBaseControllerApi;
 import edu.online.course.service.CourseBaseService;
 import edu.online.model.response.QueryResponseResult;
+import edu.online.model.response.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Classname CourseBaseController
@@ -18,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Created by zhoutao
  */
 @RestController
-@RequestMapping("/course/coursebase")
+@RequestMapping("/course/courseBase")
 public class CourseBaseController implements CourseBaseControllerApi{
     @Autowired
     CourseBaseService courseBaseService;
@@ -30,8 +28,14 @@ public class CourseBaseController implements CourseBaseControllerApi{
     }
 
     @Override
-    @GetMapping("/find/{id}")
+    @GetMapping("/findById/{id}")
     public CourseBase findCourseBaseById(@PathVariable String id) {
         return courseBaseService.findCourseBaseById(id);
+    }
+
+    @Override
+    @PostMapping("/add")
+    public ResponseResult addCourseBase(@RequestBody CourseBase courseBase) {
+        return courseBaseService.addCourseBase(courseBase);
     }
 }

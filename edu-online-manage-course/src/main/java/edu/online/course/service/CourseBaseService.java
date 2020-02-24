@@ -4,11 +4,14 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import edu.online.Entity.course.CourseBase;
 import edu.online.Entity.course.request.CourseBaseRequest;
+import edu.online.Entity.course.response.CourseCode;
 import edu.online.Entity.course.vo.CourseBaseVO;
+import edu.online.course.dao.CourseBaseRepository;
 import edu.online.course.dao.CourseMapper;
 import edu.online.model.response.CommonCode;
 import edu.online.model.response.QueryResponseResult;
 import edu.online.model.response.QueryResult;
+import edu.online.model.response.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,7 +28,10 @@ public class CourseBaseService {
     @SuppressWarnings("all")
     @Autowired
     CourseMapper courseMapper;
+    @Autowired
+    CourseBaseRepository courseBaseRepository;
 
+    //查询课程信息列表TODO
     public QueryResponseResult findCourseBaseList(int pageNo, int pageSize, CourseBaseRequest courseBaseRequest) {
         if (courseBaseRequest == null) {
             courseBaseRequest = new CourseBaseRequest();
@@ -47,5 +53,15 @@ public class CourseBaseService {
 
     public CourseBase findCourseBaseById(String id) {
         return courseMapper.findCourseBaseById(id);
+    }
+
+    /**
+     * @return
+     * @Description 添加课程 使用Jpa
+     * @Param
+     **/
+    public ResponseResult addCourseBase(CourseBase courseBase) {
+        courseBaseRepository.save(courseBase);
+        return new ResponseResult(CourseCode.COURSE_ADD_SUCCESS);
     }
 }

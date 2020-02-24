@@ -4,11 +4,12 @@ import edu.online.model.response.ResultCode;
 
 /**
  * @Classname CourseCode
- * @Description TODO
+ * @Description 课程信息操作码
  * @Date 2020/2/20 14:34
  * @Created by zhoutao
  */
 public enum CourseCode implements ResultCode{
+    COURSE_ADD_SUCCESS(true,31000,"课程添加成功！"),
     COURSE_DENIED_DELETE(false,31001,"删除课程失败，只允许删除本机构的课程！"),
     COURSE_PUBLISH_PERVIEWISNULL(false,31002,"还没有进行课程预览！"),
     COURSE_PUBLISH_CDETAILERROR(false,31003,"创建课程详情页面出错！"),
