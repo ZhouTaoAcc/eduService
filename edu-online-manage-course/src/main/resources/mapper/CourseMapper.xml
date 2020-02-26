@@ -71,7 +71,18 @@
         FROM course_pic
         WHERE courseid = course_base.id) pic
         FROM course_base
-        ORDER BY course_base.name
+        <where>
+            <if test="courseBaseRequest.name!=null and courseBaseRequest.name!=''">
+                And course_base.name like '%${courseBaseRequest.name}%'
+            </if>
+            <if test="courseBaseRequest.status!=null and courseBaseRequest.status!=''">
+                And course_base.status = #{courseBaseRequest.status}
+            </if>
+            <if test="courseBaseRequest.companyId!=null and courseBaseRequest.companyId!=''">
+                And course_base.company_id = #{courseBaseRequest.companyId}
+            </if>
+        </where>
+        order by course_base.name
     </select>
     <select id="findCourseBaseById" parameterType="java.lang.String"
             resultType="edu.online.Entity.course.CourseBase">

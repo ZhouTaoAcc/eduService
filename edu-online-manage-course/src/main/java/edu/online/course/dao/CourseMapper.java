@@ -7,6 +7,7 @@ import edu.online.Entity.course.request.CourseBaseRequest;
 import edu.online.Entity.course.vo.CategoryVO;
 import edu.online.Entity.course.vo.CourseBaseVO;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @Classname CourseMapper
@@ -20,7 +21,7 @@ public interface CourseMapper {
     CourseBase findCourseBaseById(String id);
 
     //2、分页查询课程列表
-    Page<CourseBaseVO> findCourseBaseList(CourseBaseRequest courseBaseRequest);
+    Page<CourseBaseVO> findCourseBaseList(@Param("courseBaseRequest") CourseBaseRequest courseBaseRequest);
 
     //3、课程分类查询(返回树形结构)
     public CategoryVO findList();

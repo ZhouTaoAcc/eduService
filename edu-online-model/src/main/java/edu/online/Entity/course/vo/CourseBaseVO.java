@@ -13,6 +13,6 @@ import lombok.ToString;
 @Data
 @ToString
 public class CourseBaseVO extends CourseBase {
-        //课程图片
-        private String pic;
+    //课程图片
+    private String pic;
 }

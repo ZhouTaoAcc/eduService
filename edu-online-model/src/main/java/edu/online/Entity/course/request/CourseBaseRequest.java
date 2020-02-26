@@ -10,7 +10,10 @@ import lombok.ToString;
 @Data
 @ToString
 public class CourseBaseRequest {
-    //公司Id
+    @ApiModelProperty("课程名称")
+    private String name;
+    @ApiModelProperty("课程状态")
+    private String status;
     @ApiModelProperty("所属机构Id")
     private String companyId;
 }

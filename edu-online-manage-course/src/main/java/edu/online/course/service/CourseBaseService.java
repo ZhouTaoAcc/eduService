@@ -31,7 +31,11 @@ public class CourseBaseService {
     @Autowired
     CourseBaseRepository courseBaseRepository;
 
-    //查询课程信息列表TODO
+    /**
+     * @Description 查询课程信息列表TODO
+     * @Param [pageNo, pageSize, courseBaseRequest]
+     * @return edu.online.model.response.QueryResponseResult
+     **/
     public QueryResponseResult findCourseBaseList(int pageNo, int pageSize, CourseBaseRequest courseBaseRequest) {
         if (courseBaseRequest == null) {
             courseBaseRequest = new CourseBaseRequest();
@@ -51,6 +55,11 @@ public class CourseBaseService {
         return new QueryResponseResult(CommonCode.SUCCESS, queryResult);
     }
 
+    /**
+     * @Description //TODO
+     * @Param [id]
+     * @return edu.online.Entity.course.CourseBase
+     **/
     public CourseBase findCourseBaseById(String id) {
         return courseMapper.findCourseBaseById(id);
     }
