@@ -17,7 +17,11 @@ import org.apache.ibatis.annotations.Param;
  */
 @Mapper
 public interface CourseMapper {
-    //1、根据id查询课程信息
+   /**
+    * @Description //TODO
+    * @Param [id]
+    * @return edu.online.Entity.course.CourseBase
+    **/
     CourseBase findCourseBaseById(String id);
 
     //2、分页查询课程列表

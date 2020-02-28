@@ -38,4 +38,9 @@ public class CourseBaseController implements CourseBaseControllerApi{
     public ResponseResult addCourseBase(@RequestBody CourseBase courseBase) {
         return courseBaseService.addCourseBase(courseBase);
     }
+    @Override
+    @PutMapping("/update/{id}")
+    public ResponseResult updateCourseBase(@PathVariable String id, @RequestBody CourseBase courseBase) {
+        return courseBaseService.updateCourseBase(id,courseBase);
+    }
 }

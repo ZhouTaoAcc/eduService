@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/edu-online-API/edu-online-API.iml" filepath="$PROJECT_DIR$/edu-online-API/edu-online-API.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-common/edu-online-common.iml" filepath="$PROJECT_DIR$/edu-online-common/edu-online-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-fileServer/edu-online-fileServer.iml" filepath="$PROJECT_DIR$/edu-online-fileServer/edu-online-fileServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" filepath="$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-cms-client/edu-online-manage-cms-client.iml" filepath="$PROJECT_DIR$/edu-online-manage-cms-client/edu-online-manage-cms-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" filepath="$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" />

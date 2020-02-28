@@ -27,7 +27,8 @@ public interface CourseBaseControllerApi {
     @ApiOperation("通过Id查询课程")
     public CourseBase findCourseBaseById(String id);
 
-    @ApiOperation("添加课程")
+    @ApiOperation("添加课程基本信息")
     public ResponseResult addCourseBase(CourseBase courseBase);
-
+    @ApiOperation("编辑课程基本信息")
+    public ResponseResult updateCourseBase(String id, CourseBase courseBase);
 }

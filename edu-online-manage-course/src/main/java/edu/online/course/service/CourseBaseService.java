@@ -12,6 +12,7 @@ import edu.online.model.response.CommonCode;
 import edu.online.model.response.QueryResponseResult;
 import edu.online.model.response.QueryResult;
 import edu.online.model.response.ResponseResult;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -32,9 +33,9 @@ public class CourseBaseService {
     CourseBaseRepository courseBaseRepository;
 
     /**
+     * @return edu.online.model.response.QueryResponseResult
      * @Description 查询课程信息列表TODO
      * @Param [pageNo, pageSize, courseBaseRequest]
-     * @return edu.online.model.response.QueryResponseResult
      **/
     public QueryResponseResult findCourseBaseList(int pageNo, int pageSize, CourseBaseRequest courseBaseRequest) {
         if (courseBaseRequest == null) {
@@ -56,21 +57,35 @@ public class CourseBaseService {
     }
 
     /**
-     * @Description //TODO
-     * @Param [id]
      * @return edu.online.Entity.course.CourseBase
+     * @Description 查询课程基本信息
+     * @Param [id]
      **/
     public CourseBase findCourseBaseById(String id) {
         return courseMapper.findCourseBaseById(id);
     }
 
     /**
-     * @return
-     * @Description 添加课程 使用Jpa
-     * @Param
+     * @return edu.online.model.response.ResponseResult
+     * @Description 添加课程基本信息
+     * @Param [courseBase]
      **/
     public ResponseResult addCourseBase(CourseBase courseBase) {
         courseBaseRepository.save(courseBase);
         return new ResponseResult(CourseCode.COURSE_ADD_SUCCESS);
+    }
+
+    /**
+     * @return edu.online.model.response.ResponseResult
+     * @Description 编辑课程基本信息
+     * @Param [id, courseBase]
+     **/
+    public ResponseResult updateCourseBase(String id, CourseBase courseBase) {
+        if(StringUtils.isEmpty(id)){
+            return new ResponseResult(CommonCode.INVALID_PARAM);
+        }
+        courseBase.setId(id);
+        courseBaseRepository.save(courseBase);
+        return new ResponseResult(CommonCode.SUCCESS);
     }
 }
