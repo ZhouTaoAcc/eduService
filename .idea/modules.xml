@@ -4,12 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/edu-online-API/edu-online-API.iml" filepath="$PROJECT_DIR$/edu-online-API/edu-online-API.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-common/edu-online-common.iml" filepath="$PROJECT_DIR$/edu-online-common/edu-online-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-eureka-server/edu-online-eureka-server.iml" filepath="$PROJECT_DIR$/edu-online-eureka-server/edu-online-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-fileServer/edu-online-fileServer.iml" filepath="$PROJECT_DIR$/edu-online-fileServer/edu-online-fileServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" filepath="$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-cms-client/edu-online-manage-cms-client.iml" filepath="$PROJECT_DIR$/edu-online-manage-cms-client/edu-online-manage-cms-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" filepath="$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-model/edu-online-model.iml" filepath="$PROJECT_DIR$/edu-online-model/edu-online-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" filepath="$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-ucenter/edu-online-ucenter.iml" filepath="$PROJECT_DIR$/edu-online-ucenter/edu-online-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/edu-online-ucenter-oauth2.iml" filepath="$PROJECT_DIR$/edu-online-ucenter-oauth2/edu-online-ucenter-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" filepath="$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/eduService.iml" filepath="$PROJECT_DIR$/.idea/eduService.iml" />
       <module fileurl="file://$PROJECT_DIR$/testFreemaker/testFreemaker.iml" filepath="$PROJECT_DIR$/testFreemaker/testFreemaker.iml" />

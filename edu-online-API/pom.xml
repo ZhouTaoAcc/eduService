@@ -28,6 +28,14 @@
             <artifactId>spring-web</artifactId>
             <version>5.0.10.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
     </dependencies>
 
 

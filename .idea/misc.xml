@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/edu-online-manage-cms-client/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-manage-course/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-fileServer/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-online-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-online-eureka-server/pom.xml" />
       </list>
     </option>
   </component>

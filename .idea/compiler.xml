@@ -8,12 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="edu-online-API" />
         <module name="edu-online-common" />
+        <module name="edu-online-eureka-server" />
         <module name="edu-online-fileServer" />
         <module name="edu-online-manage-cms" />
         <module name="edu-online-manage-cms-client" />
         <module name="edu-online-manage-course" />
         <module name="edu-online-model" />
         <module name="edu-online-parent" />
+        <module name="edu-online-ucenter" />
+        <module name="edu-online-ucenter-oauth2" />
         <module name="edu-online-utils" />
         <module name="edu.online.cms_client" />
         <module name="testFreemaker" />
@@ -22,6 +25,8 @@
     <bytecodeTargetLevel>
       <module name="edu-online-API" target="1.8" />
       <module name="edu-online-common" target="1.8" />
+      <module name="edu-online-eureka-register" target="1.8" />
+      <module name="edu-online-eureka-server" target="1.8" />
       <module name="edu-online-fileServer" target="1.8" />
       <module name="edu-online-manage-cms" target="1.8" />
       <module name="edu-online-manage-cms-client" target="1.8" />
@@ -29,6 +34,9 @@
       <module name="edu-online-model" target="1.8" />
       <module name="edu-online-parent" target="1.8" />
       <module name="edu-online-testFreemaker" target="1.5" />
+      <module name="edu-online-ucenter" target="1.8" />
+      <module name="edu-online-ucenter-auth2" target="1.8" />
+      <module name="edu-online-ucenter-oauth2" target="1.8" />
       <module name="edu-online-utils" target="1.8" />
       <module name="edu.online.cms_client" target="1.8" />
       <module name="testFreemaker" target="1.8" />

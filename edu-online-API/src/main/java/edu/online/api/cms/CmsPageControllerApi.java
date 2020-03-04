@@ -5,13 +5,10 @@ import edu.online.Entity.cms.request.QueryPageRequest;
 import edu.online.Entity.cms.response.CmsResponseResult;
 import edu.online.model.response.QueryResponseResult;
 import edu.online.model.response.ResponseResult;
-import freemarker.template.TemplateException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
-
-import java.io.IOException;
 /*
 Swagger是全球最大的OpenAPI规范（OAS）API开发工具框架，支持从设计文档到测试和部署的整个API生命周期的开发
 @Api：修饰整个类，描述Controller的作用
@@ -66,5 +63,5 @@ public interface CmsPageControllerApi {
 
     //7.页面发布
     @ApiOperation("页面发布")
-    public ResponseResult releasePage(String pageId) throws IOException, TemplateException;
+    public ResponseResult releasePage(String pageId) throws Exception;
 }
