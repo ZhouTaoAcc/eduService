@@ -24,8 +24,8 @@ public class CourseBase {
     private String id;
     private String name;
     private String users;
-    private String mt;
-    private String st;
+    private String mt;//大分类
+    private String st;//小分类
     private String grade;
     private String studymodel;
     private String teachmode;

@@ -105,6 +105,7 @@ public class UcenterAuthService {
         //远程调用
         ResponseEntity<Map> map = restTemplate.exchange(authUrl, HttpMethod.POST, httpEntity, Map.class);
         Map mapContent = map.getBody();
+        //解析错误信息
         if (mapContent == null ||   //有一个值为空 就算申请失败
                 mapContent.get("jti") == null ||
                 mapContent.get("access_token") == null ||
@@ -125,7 +126,7 @@ public class UcenterAuthService {
         return JSONObject.toJSONString(authToken);
     }
 
-    /*拼接 Basic ASCHJFDUWF= 这种形式*/
+    /*拼接 Basic abASCHJsFDUWF= 这种形式*/
     private String getHttpBasic(String clientId, String clientSecret) {
         String string = clientId + ":" + clientSecret;
         //将串进行base64编码

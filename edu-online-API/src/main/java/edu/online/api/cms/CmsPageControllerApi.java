@@ -64,4 +64,9 @@ public interface CmsPageControllerApi {
     //7.页面发布
     @ApiOperation("页面发布")
     public ResponseResult releasePage(String pageId) throws Exception;
+
+
+    //8.根据id更新页面状态
+    @ApiOperation("更新页面状态")
+    public CmsPage updateStatusById(String id,String status);
 }

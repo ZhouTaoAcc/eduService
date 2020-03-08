@@ -4,6 +4,7 @@ import edu.online.Entity.cms.CmsPage;
 import edu.online.model.response.ResponseResult;
 import edu.online.model.response.ResultCode;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @Classname CmsResponseResult
@@ -12,6 +13,7 @@ import lombok.Data;
  * @Created by zhoutao
  */
 @Data
+@NoArgsConstructor
 public class CmsResponseResult extends ResponseResult {
     CmsPage data;
 

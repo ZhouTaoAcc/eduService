@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
@@ -12,6 +14,8 @@ import org.springframework.context.annotation.ComponentScan;
  * @Date 2020/2/19 14:38
  * @Created by zhoutao
  */
+@EnableDiscoveryClient
+@EnableFeignClients //开启feign
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EntityScan("edu.online.Entity.course")//扫描实体类
 @ComponentScan(basePackages = {"edu.online.exception"}) //扫描自定义异常包

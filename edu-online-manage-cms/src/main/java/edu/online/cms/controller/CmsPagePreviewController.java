@@ -2,7 +2,6 @@ package edu.online.cms.controller;
 
 import edu.online.cms.service.CmsPageService;
 import edu.online.web.BaseController;
-import freemarker.template.TemplateException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.io.IOException;
 import java.io.OutputStream;
 
 /**
@@ -26,10 +24,11 @@ public class CmsPagePreviewController extends BaseController {
     private CmsPageService cmsPageService;
     //页面预览
     @GetMapping("/pagePreview/{id}")
-    public void pagePreview(@PathVariable("id") String pageId) throws IOException, TemplateException {
+    public void pagePreview(@PathVariable("id") String pageId) throws Exception {
         String html = cmsPageService.generateHtml(pageId);//返回静态化内容
         if(StringUtils.isNotEmpty(html)){
             OutputStream outputStream = response.getOutputStream();
+            response.setHeader("Content-type","text/html;charset=utf-8");
             outputStream.write(html.getBytes("utf-8"));//向浏览器写出
         }
     }

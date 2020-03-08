@@ -17,7 +17,6 @@ import edu.online.utils.DateUtil;
 import freemarker.cache.StringTemplateLoader;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
-import freemarker.template.TemplateException;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.bson.types.ObjectId;
@@ -122,7 +121,7 @@ public class CmsPageService {
             cmsPageRepository.save(cmsPage);
             return new CmsResponseResult(CommonCode.SUCCESS, cmsPage);//新增成功
         } else if (isCmsPage != null) {
-            return new CmsResponseResult(CmsCode.CMS_ADDPAGE_EXISTSNAME, null);//页面已经存在
+            return new CmsResponseResult(CmsCode.CMS_ADDPAGE_EXISTSNAME, isCmsPage);//页面已经存在
         }
         return new CmsResponseResult(CommonCode.SERVER_ERROR, null);//其他错误
     }
@@ -162,6 +161,13 @@ public class CmsPageService {
             return byId.get();
         }
         return null;
+    }
+   //更新页面的状态
+    public CmsPage updateStatusById(String id,String status) {
+        CmsPage page = this.findById(id);
+        page.setPageStatus(status);
+        CmsPage save = cmsPageRepository.save(page);
+        return save;
     }
 
     //6、页面静态化程序
@@ -224,7 +230,7 @@ public class CmsPageService {
     }
 
     //执行页面静态化
-    public String generateHtml(String pageId) throws IOException, TemplateException {
+    public String generateHtml(String pageId) throws Exception {
         Map model = getPageModelById(pageId);
         if (model == null) {
             ExceptionCast.cast(CmsCode.CMS_GENERATEHTML_DATAISNULL);
@@ -253,7 +259,7 @@ public class CmsPageService {
      * 2.把生成的文件存到gridfs中 返回id存到cmsPage中
      * 3.给MQ 发消息 通知消费者下载文件到页面的物理路径中 并不是直接调用savePageToServerPath
      */
-    public ResponseResult releasePage(String pageId) throws IOException, TemplateException {
+    public ResponseResult releasePage(String pageId) throws Exception {
         CmsPage page = this.findById(pageId);
         if (page == null) {
             return new ResponseResult(CmsCode.CMS_FINDPAGE_NotEXISTSNAME);
@@ -302,25 +308,24 @@ public class CmsPageService {
      */
     public void savePageToServerPath(String pageId) {
         //根据pageId查询cmsPage
-        CmsPage page = this.findById(pageId);
+         CmsPage page = this.findById(pageId);
         //从cmsPage中获取静态文件id htmlFileId
         String htmlFileId = page.getHtmlFileId();
-        InputStream inputStream = null;
         FileOutputStream fileOutputStream = null;
         try {
             String htmlContent = cmsTemplateService.readTemplateFile(htmlFileId, 0);
             //页面物理路径 F:/a/b/c.html
-            String pagePath =page.getPagePhysicalPath() + page.getPageName();
+            String pagePath = page.getPagePhysicalPath() + page.getPageName();
             //把静态文件内容转入输入流中
-            inputStream = IOUtils.toInputStream(htmlContent,"utf-8");
+            InputStream inputStream = IOUtils.toInputStream(htmlContent, "utf-8");
             fileOutputStream = new FileOutputStream(new File(pagePath));
             IOUtils.copy(inputStream, fileOutputStream);
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
+        }
+        finally {
             try {//关流
-                inputStream.close();
-                fileOutputStream.close();
+               fileOutputStream.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -19,7 +19,7 @@ public class LoginResponseResult extends ResponseResult {
 
     public LoginResponseResult(ResultCode resultCode, UserToken token) {
         super(resultCode);
-        if (token == null || ("".equals(token))) {
+        if (token == null) {//避免空指针
             return;
         }
         this.access_token = token.getAccess_token();

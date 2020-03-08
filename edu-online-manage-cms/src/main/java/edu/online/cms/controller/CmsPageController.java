@@ -7,11 +7,8 @@ import edu.online.api.cms.CmsPageControllerApi;
 import edu.online.cms.service.CmsPageService;
 import edu.online.model.response.QueryResponseResult;
 import edu.online.model.response.ResponseResult;
-import freemarker.template.TemplateException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.io.IOException;
 
 /**
  * @Classname CmsPageController
@@ -66,7 +63,13 @@ public class CmsPageController implements CmsPageControllerApi {
 
     @Override
     @GetMapping("/releasePage/{id}")
-    public ResponseResult releasePage(@PathVariable("id") String id) throws IOException, TemplateException {
+    public ResponseResult releasePage(@PathVariable("id") String id) throws Exception {
         return cmsPageService.releasePage(id);
+    }
+
+    @Override
+    @GetMapping("/updateStatusById/{id}")
+    public CmsPage updateStatusById(@PathVariable("id") String id,String status) {
+        return  cmsPageService.updateStatusById(id,status);
     }
 }

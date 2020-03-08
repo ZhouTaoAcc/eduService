@@ -5,249 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be42fb7-62a3-4f7b-8227-8fe6826321c1" name="Default" comment="页面列表的增删改查">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_23_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseMarketControllerApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CoursePlanControllerApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/oauth/UcenterAuthControllerApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/ucenter/UcenterControllerApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-eureka-server/edu-online-eureka-server.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-eureka-server/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-eureka-server/src/main/java/edu/online/eureka/EurekaServerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-eureka-server/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/config/ResourceServerConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseMarketController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CoursePlanController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMarketRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CoursePlanMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CoursePlanRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseMarketService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CoursePlanService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/mapper/CoursePlanMappper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/publicKey.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseMarket.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CoursePlanVO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/Company.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/CompanyUser.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/Menu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/Permission.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/Teacher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/UserRole.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/VO/UserToken.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/VO/UserVO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/request/LoginRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/AuthCode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/LoginResponseResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/edu-online-ucenter-oauth2.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/UcenterOauthApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/AuthorizationServerConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/CustomUserAuthenticationConverter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/UserJwt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/WebSecurityConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/controller/UcenterAuthController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/feign/UserFeignClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UserDetailsServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/resources/edu.keystore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/resources/oauth.sql" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/test/java/edu/online/oauth/test/TestFeignClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/edu-online-ucenter.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/UcenterApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/controller/UcenterController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/dao/CompanyUserRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/dao/UserRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-ucenter/src/test/java/edu/online/ucenter/TestPassword.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_core_8_18_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_okhttp_8_18_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_io_unknown.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_9.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_6_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_6_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securesm_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_locationtech_spatial4j_spatial4j_0_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseViewControllerApi.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseViewController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/feign/CmsPageFeignClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseViewService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseResponseResult.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CourseVO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testFreemaker/src/main/resources/templates/course.ftl" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-API/edu-online-API.iml" afterPath="$PROJECT_DIR$/edu-online-API/edu-online-API.iml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-API/pom.xml" afterPath="$PROJECT_DIR$/edu-online-API/pom.xml" />
       <change beforePath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/CmsPageControllerApi.java" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/CmsPageControllerApi.java" />
       <change beforePath="$PROJECT_DIR$/edu-online-API/target/classes/edu/online/api/cms/CmsPageControllerApi.class" afterPath="$PROJECT_DIR$/edu-online-API/target/classes/edu/online/api/cms/CmsPageControllerApi.class" />
-      <change beforePath="$PROJECT_DIR$/edu-online-common/edu-online-common.iml" afterPath="$PROJECT_DIR$/edu-online-common/edu-online-common.iml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-common/pom.xml" afterPath="$PROJECT_DIR$/edu-online-common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-fileServer/edu-online-fileServer.iml" afterPath="$PROJECT_DIR$/edu-online-fileServer/edu-online-fileServer.iml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-fileServer/pom.xml" afterPath="$PROJECT_DIR$/edu-online-fileServer/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-eureka-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/edu-online-eureka-server/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms-client/edu-online-manage-cms-client.iml" afterPath="$PROJECT_DIR$/edu-online-manage-cms-client/edu-online-manage-cms-client.iml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms-client/pom.xml" afterPath="$PROJECT_DIR$/edu-online-manage-cms-client/pom.xml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" afterPath="$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/pom.xml" afterPath="$PROJECT_DIR$/edu-online-manage-cms/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/ManageCmsApplication.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/ManageCmsApplication.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPageController.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPageController.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPagePreviewController.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPagePreviewController.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/application.yml" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/application.yml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/ManageCmsApplication.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/ManageCmsApplication.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/controller/CmsPageController.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/controller/CmsPageController.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/service/CmsPageService.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/service/CmsPageService.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" afterPath="$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-course/pom.xml" afterPath="$PROJECT_DIR$/edu-online-manage-course/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMapper.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CourseMapper.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-model/edu-online-model.iml" afterPath="$PROJECT_DIR$/edu-online-model/edu-online-model.iml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-model/pom.xml" afterPath="$PROJECT_DIR$/edu-online-model/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/ManageCourseApplication.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/ManageCourseApplication.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/config/ResourceServerConfig.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/config/ResourceServerConfig.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/response/CmsResponseResult.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/response/CmsResponseResult.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseBase.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseBase.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/LoginResponseResult.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/LoginResponseResult.java" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/CmsTemplate.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/CmsTemplate.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/request/QueryPageRequest.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/request/QueryPageRequest.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsCode.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsCode.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsResponseResult.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsResponseResult.class" />
-      <change beforePath="$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" afterPath="$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-parent/pom.xml" afterPath="$PROJECT_DIR$/edu-online-parent/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" afterPath="$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java" />
+      <change beforePath="$PROJECT_DIR$/testFreemaker/pom.xml" afterPath="$PROJECT_DIR$/testFreemaker/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/testFreemaker/src/main/java/edu/online/freemaker/controller/FreemarkerController.java" afterPath="$PROJECT_DIR$/testFreemaker/src/main/java/edu/online/freemaker/controller/FreemarkerController.java" />
+      <change beforePath="$PROJECT_DIR$/testFreemaker/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/testFreemaker/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/testFreemaker/testFreemaker.iml" afterPath="$PROJECT_DIR$/testFreemaker/testFreemaker.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/edu-online-parent/target/" />
@@ -294,104 +94,79 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="eduService" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UcenterAuthController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/controller/UcenterAuthController.java">
+      <file leaf-file-name="CourseViewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="61" column="62" lean-forward="false" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+            <state relative-caret-position="579">
+              <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CmsTemplateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsTemplateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="71" column="40" lean-forward="false" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2333#2334#0" expanded="true" />
+                <element signature="e#2397#2398#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthCode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/AuthCode.java">
+      <file leaf-file-name="CmsTemplateService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsTemplateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="151">
+              <caret line="207" column="49" lean-forward="true" selection-start-line="207" selection-start-column="49" selection-end-line="207" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UcenterAuthService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java">
+      <file leaf-file-name="CourseViewService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseViewService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="116" column="35" lean-forward="false" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3902#4210#0" expanded="true" />
-                <element signature="e#4209#4210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UserDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="64" column="90" lean-forward="false" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="90" />
+            <state relative-caret-position="-345">
+              <caret line="159" column="48" lean-forward="true" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoAuthenticationProvider.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <file leaf-file-name="CmsPageFeignClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/feign/CmsPageFeignClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <element signature="e#4235#4236#0" expanded="true" />
-                <element signature="e#4278#4279#0" expanded="true" />
-                <element signature="e#4478#4479#0" expanded="true" />
-                <element signature="e#4524#4525#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractUserDetailsAuthenticationProvider.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserJwt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/UserJwt.java">
+      <file leaf-file-name="CmsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/CmsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="531">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProviderManager.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
+      <file leaf-file-name="ConsumerPostPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/MQ/ConsumerPostPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/StringUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="653" column="0" lean-forward="false" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -431,6 +206,8 @@
       <find>restTemplate</find>
       <find>al</find>
       <find>selectClientDetailsSql</find>
+      <find>xuecheng</find>
+      <find>saveCoursePubState</find>
     </findStrings>
     <replaceStrings>
       <replace>pageNo</replace>
@@ -439,6 +216,7 @@
       <replace>站点管理</replace>
       <replace>Site</replace>
       <replace>站点</replace>
+      <replace>eduonline</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -452,39 +230,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/controller/UcenterController.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/dao/UserRepository.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/dao/CompanyUserRepository.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/service/UserService.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/UserJwt.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/test/java/edu/online/oauth/test/TestClient.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/feign/UserClient.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/feignclient/UserClient.java" />
-        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/VO/UserVO.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/CustomUserAuthenticationConverter.java" />
-        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/config/ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/feign/FeignClient.java" />
-        <option value="$PROJECT_DIR$/edu-online-eureka-register/src/main/resources/application-server1.yml" />
-        <option value="$PROJECT_DIR$/edu-online-eureka-register/src/main/resources/application-server2.yml" />
-        <option value="$PROJECT_DIR$/edu-online-eureka-register/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-eureka-register/src/main/java/edu/online/eureka/EurekaRegisterApplication.java" />
-        <option value="$PROJECT_DIR$/edu-online-eureka-register/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/edu-online-fileServer/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-common/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-manage-course/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java" />
-        <option value="$PROJECT_DIR$/edu-online-manage-cms/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-model/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/CmsPageControllerApi.java" />
-        <option value="$PROJECT_DIR$/edu-online-API/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-manage-cms-client/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/edu-online-parent/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-eureka-server/src/main/java/edu/online/eureka/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/edu-online-ucenter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/edu-online-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/UcenterOauthApplication.java" />
         <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/UcenterApplication.java" />
         <option value="$PROJECT_DIR$/edu-online-ucenter/pom.xml" />
@@ -499,10 +247,40 @@
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/AuthCode.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/LoginResult.java" />
         <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/controller/UcenterAuthController.java" />
-        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/LoginResponseResult.java" />
         <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/LoginResponseResult.java" />
+        <option value="$PROJECT_DIR$/edu-online-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/ManageCmsApplication.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CourseVO.java" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseBase.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java" />
+        <option value="$PROJECT_DIR$/testFreemaker/src/main/resources/templates/course.ftl" />
+        <option value="$PROJECT_DIR$/testFreemaker/pom.xml" />
+        <option value="$PROJECT_DIR$/testFreemaker/src/main/java/edu/online/freemaker/controller/CourseFreemakerController.java" />
+        <option value="$PROJECT_DIR$/testFreemaker/src/main/java/edu/online/freemaker/controller/BannerFreemarkerController.java" />
+        <option value="$PROJECT_DIR$/testFreemaker/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/testFreemaker/src/main/java/edu/online/freemaker/controller/FreemarkerController.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPagePreviewController.java" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CouserResponeResult.java" />
+        <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseViewControllerApi.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/UcenterOauthApplication.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/ManageCourseApplication.java" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/response/CmsResponseResult.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseViewController.java" />
+        <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/CmsPageControllerApi.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPageController.java" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseResponseResult.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms-client/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/feign/CmsPageFeignClient.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseViewService.java" />
       </list>
     </option>
   </component>
@@ -531,8 +309,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="31" />
-    <option name="y" value="164" />
+    <option name="x" value="257" />
+    <option name="y" value="42" />
     <option name="width" value="1432" />
     <option name="height" value="732" />
   </component>
@@ -885,7 +663,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -896,89 +674,25 @@
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -986,7 +700,7 @@
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -995,7 +709,7 @@
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1005,253 +719,574 @@
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-API" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="response" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="response" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="VO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="online" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="MQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-cms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenter" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
               <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -1259,7 +1294,6 @@
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="online" type="462c0819:PsiDirectoryNode" />
               <item name="oauth" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
@@ -1288,17 +1322,150 @@
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-ucenter-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="freemaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="freemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="testFreemaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1320,26 +1487,26 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\javaCode\eduService\edu-online-ucenter-oauth2\src\main\resources" />
+      <recent name="F:\javaCode\eduService" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="edu.online.test" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\javaCode\eduService\edu-online-eureka-server\src\main\resources" />
-      <recent name="F:\javaCode\eduService\edu-online-eureka-register\src\main\resources" />
-      <recent name="F:\javaCode\eduService\edu-online-manage-course\src\main\resources" />
-      <recent name="F:\javaCode\eduService\edu-online-ucenter-oauth2\src\main\resources" />
-      <recent name="F:\javaCode\eduService\edu-online-ucenter\src\main\resources" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.online.course.feign" />
       <recent name="edu.online.Entity.ucenter.VO" />
       <recent name="edu.online.course.config" />
       <recent name="edu.online.oauth.test" />
       <recent name="edu.online.oauth.config" />
-      <recent name="edu.online.api.ucenter" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javaCode\eduService\testFreemaker\src\main\resources\templates" />
+      <recent name="F:\javaCode\eduService\edu-online-eureka-server\src\main\resources" />
+      <recent name="F:\javaCode\eduService\edu-online-eureka-register\src\main\resources" />
+      <recent name="F:\javaCode\eduService\edu-online-manage-course\src\main\resources" />
       <recent name="F:\javaCode\eduService\edu-online-ucenter-oauth2\src\main\resources" />
-      <recent name="F:\javaCode\eduService" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1358,9 +1525,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.10843374" />
+    <option name="contentProportion" value="0.17196056" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UcenterOauthApplication">
+  <component name="RunManager" selected="Application.ManageCourseApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1511,6 +1678,22 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <configuration name="Eureka01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="eureka-server">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.online.eureka.EurekaServerApplication" />
+      <option name="VM_PARAMETERS" value="-DPORT=10001 -DEUREKA_SERVER=http://eureka02:10002/eureka/ -DEUREKA_DOMAIN=eureka01" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="edu-online-eureka-server" />
+      <envs />
+    </configuration>
+    <configuration name="Eureka02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="eureka-server">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.online.eureka.EurekaServerApplication" />
+      <option name="VM_PARAMETERS" value="-DPORT=10002 -DEUREKA_SERVER=http://eureka01:10001/eureka/ -DEUREKA_DOMAIN=eureka02" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="edu-online-eureka-server" />
+      <envs />
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.online.eureka.EurekaServerApplication" />
@@ -1592,28 +1775,30 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="13">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ManageCmsApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ManageCourseApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ManageCmsClientApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.FreemarkerTestApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.fileServerApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.UcenterOauthApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.UcenterApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Application.ManageCmsApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Application.ManageCourseApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Application.UcenterApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.TestPassword.test01" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.TestFeignClient.testFeign" />
+    <list size="15">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Eureka01" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Eureka02" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ManageCmsApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ManageCourseApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ManageCmsClientApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.FreemarkerTestApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.fileServerApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.UcenterOauthApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.UcenterApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Application.ManageCmsApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Application.ManageCourseApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Application.UcenterApplication" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.TestPassword.test01" />
+      <item index="14" class="java.lang.String" itemvalue="JUnit.TestFeignClient.testFeign" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestFeignClient.testFeign" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestPassword.test01" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ManageCourseApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ManageCmsApplication" />
         <item index="2" class="java.lang.String" itemvalue="Application.UcenterApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ManageCourseApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ManageCmsApplication" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFeignClient.testFeign" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestPassword.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -1672,7 +1857,11 @@
       <workItem from="1582985858405" duration="6276000" />
       <workItem from="1583038477061" duration="18190000" />
       <workItem from="1583207085195" duration="35150000" />
-      <workItem from="1583296569532" duration="41569000" />
+      <workItem from="1583296569532" duration="41838000" />
+      <workItem from="1583387380280" duration="8793000" />
+      <workItem from="1583480372219" duration="1670000" />
+      <workItem from="1583491628670" duration="5061000" />
+      <workItem from="1583559765436" duration="45246000" />
     </task>
     <task id="LOCAL-00001" summary="正则表达式模糊查询">
       <created>1581476573520</created>
@@ -1758,7 +1947,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582885204414</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.Spring Security Oauth2认证授权 &#10;2.Eureka注册中心 Feign远程访问微服务&#10;2.依赖调整">
+      <created>1583339571116</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583339571116</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1794,7 +1990,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="501537000" />
+    <option name="totallyTimeSpent" value="562576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1819,24 +2015,24 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5127907" sideWeight="0.49791667" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34069768" sideWeight="0.49791667" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25697675" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30465117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31627908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5582192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22585838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25268242" sideWeight="0.4931973" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3244186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23497854" sideWeight="0.50680274" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1925,14 +2121,15 @@
     <MESSAGE value="课程分类查询" />
     <MESSAGE value="课程基础信息" />
     <MESSAGE value="文件服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件服务" />
+    <MESSAGE value="1.Spring Security Oauth2认证授权 &#10;2.Eureka注册中心 Feign远程访问微服务&#10;2.依赖调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Spring Security Oauth2认证授权 &#10;2.Eureka注册中心 Feign远程访问微服务&#10;2.依赖调整" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="459" />
+      <option name="time" value="537" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1941,476 +2138,435 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/repository3/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar!/org/apache/commons/lang3/StringUtils.class">
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/ClassUtils.class">
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseMarketController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="528" column="0" lean-forward="false" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
+        <state relative-caret-position="-49">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/core/convert/TypeDescriptor.class">
+    <entry file="file://$PROJECT_DIR$/testFreemaker/src/main/java/edu/online/freemaker/controller/CourseFreemakerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        <state relative-caret-position="127">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFreemaker/src/main/resources/templates/index_banner.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
-            <element signature="e#2685#2686#0" expanded="true" />
-            <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#2795#2796#0" expanded="true" />
-            <element signature="e#2827#2828#0" expanded="true" />
-            <element signature="e#9611#9612#0" expanded="true" />
-            <element signature="e#9659#9660#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/ObjectUtils.class">
+    <entry file="file://$PROJECT_DIR$/testFreemaker/src/main/resources/templates/course.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="199" column="0" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+        <state relative-caret-position="78">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/ConcurrentReferenceHashMap.class">
+    <entry file="file://$PROJECT_DIR$/testFreemaker/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding>
-            <element signature="e#13552#13553#0" expanded="true" />
-            <element signature="e#13592#13593#0" expanded="true" />
-            <element signature="e#20480#20481#0" expanded="true" />
-            <element signature="e#20519#20520#0" expanded="true" />
-            <element signature="e#20568#20569#0" expanded="true" />
-            <element signature="e#20609#20610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/core/convert/support/ConversionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/core/convert/support/GenericConversionService.class">
+    <entry file="file://$PROJECT_DIR$/testFreemaker/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="e#20023#20024#0" expanded="true" />
-            <element signature="e#20114#20115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/spring-cloud-openfeign-core-2.0.1.RELEASE.jar!/org/springframework/cloud/openfeign/support/SpringMvcContract.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
-          <folding>
-            <element signature="e#13071#13072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/MethodMetadata.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="e#1604#1605#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#2836#2837#0" expanded="true" />
-            <element signature="e#2872#2873#0" expanded="true" />
-            <element signature="e#3011#3012#0" expanded="true" />
-            <element signature="e#3050#3051#0" expanded="true" />
-            <element signature="e#3145#3146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/Util.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/RequestTemplate.class">
+    <entry file="file://$PROJECT_DIR$/testFreemaker/src/main/java/edu/online/freemaker/controller/FreemarkerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/SynchronousMethodHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/ReflectiveFeign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/InternalAuthenticationServiceException.class">
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/vo/CourseVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
-            <element signature="e#442#443#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/context/ThreadLocalSecurityContextHolderStrategy.class">
+    <entry file="file://$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/ResponseResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/context/SecurityContextHolder.class">
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CouserResponeResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#1035#1036#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/context/SecurityContextImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#1143#1144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/target/AbstractBeanFactoryBasedTargetSource.class">
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/target/SimpleBeanTargetSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="513">
+          <caret line="83" column="20" lean-forward="true" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar!/org/springframework/beans/factory/BeanFactoryUtils.class">
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/core/SimpleAliasRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#4226#4227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar!/org/apache/commons/logging/LogFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="493" column="0" lean-forward="false" selection-start-line="493" selection-start-column="0" selection-end-line="493" selection-end-column="0" />
-          <folding>
-            <element signature="e#16582#16583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/Level.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#1892#1893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar!/org/apache/logging/slf4j/SLF4JLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="600" column="0" lean-forward="false" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/spi/TurboFilterList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#3154#3155#0" expanded="true" />
-            <element signature="e#3225#3226#0" expanded="true" />
-            <element signature="e#3288#3289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/client/JdbcClientDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
-          <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-          <folding>
-            <marker date="1536139907091" expanded="true" signature="3716:3970" ph="update oauth_client_details... " />
-            <marker date="1536139907091" expanded="true" signature="4376:4428" ph="delete from oauth_client_details... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/spi/AbstractLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39546">
-          <caret line="1069" column="0" lean-forward="false" selection-start-line="1069" selection-start-column="0" selection-end-line="1069" selection-end-column="0" />
-          <folding>
-            <element signature="e#46741#46742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/LoggerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6357">
-          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/ClientDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/authority/AuthorityUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/config/UserJwt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar!/org/springframework/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="653" column="0" lean-forward="false" selection-start-line="653" selection-start-column="0" selection-end-line="653" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/repository3/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#4235#4236#0" expanded="true" />
-            <element signature="e#4278#4279#0" expanded="true" />
-            <element signature="e#4478#4479#0" expanded="true" />
-            <element signature="e#4524#4525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/AuthCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="156">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="64" column="90" lean-forward="false" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="90" />
+        <state relative-caret-position="511">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java">
+    <entry file="file://$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CourseViewControllerApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="116" column="35" lean-forward="false" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3902#4210#0" expanded="true" />
-            <element signature="e#4209#4210#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/ucenter/response/LoginResponseResult.java">
+    <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/UcenterOauthApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="121">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/response/CmsResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository3/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/codec/ErrorDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/response/CmsCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository3/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository3/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/conn/scheme/PlainSocketFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edu-online-eureka-server/src/main/java/edu/online/eureka/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="453">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/controller/UcenterAuthController.java">
+    <entry file="file://$PROJECT_DIR$/testFreemaker/src/main/java/edu/online/freemaker/FreemarkerTestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="61" column="62" lean-forward="false" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+        <state relative-caret-position="164">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/ManageCmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsSiteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="false" />
+            <element signature="e#1665#1666#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/config/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#723#724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/config/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-ucenter/src/main/java/edu/online/ucenter/controller/UcenterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#831#832#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/feign/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/CmsPageControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="71" column="8" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseBaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/response/CourseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="15" />
+          <folding>
+            <element signature="e#2025#2026#0" expanded="false" />
+            <element signature="e#2075#2076#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/ManageCmsClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/ManageCourseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="80" column="46" lean-forward="false" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/CmsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/MQ/ConsumerPostPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/exception/ExceptionCast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#342#343#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPagePreviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="215" column="51" lean-forward="true" selection-start-line="215" selection-start-column="51" selection-end-line="215" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="71" column="40" lean-forward="false" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+          <folding>
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsTemplateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="207" column="49" lean-forward="true" selection-start-line="207" selection-start-column="49" selection-end-line="207" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/feign/CmsPageFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CourseViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseViewService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="159" column="48" lean-forward="true" selection-start-line="159" selection-start-column="48" selection-end-line="159" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
