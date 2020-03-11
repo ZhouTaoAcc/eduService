@@ -103,7 +103,6 @@ public class CmsPageService {
         }
         //计算总数
         long total = mongoTemplate.count(query, CmsPage.class);
-
         //查询结果集
         List<CmsPage> list = mongoTemplate.find(query.with(pageable), CmsPage.class);
         QueryResult queryResult = new QueryResult();

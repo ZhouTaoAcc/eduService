@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" filepath="$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-model/edu-online-model.iml" filepath="$PROJECT_DIR$/edu-online-model/edu-online-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" filepath="$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-searchServer/edu-online-searchServer.iml" filepath="$PROJECT_DIR$/edu-online-searchServer/edu-online-searchServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-ucenter/edu-online-ucenter.iml" filepath="$PROJECT_DIR$/edu-online-ucenter/edu-online-ucenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-ucenter-oauth2/edu-online-ucenter-oauth2.iml" filepath="$PROJECT_DIR$/edu-online-ucenter-oauth2/edu-online-ucenter-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" filepath="$PROJECT_DIR$/edu-online-utils/edu-online-utils.iml" />

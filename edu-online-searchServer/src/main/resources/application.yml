@@ -1,0 +1,25 @@
+server:
+  port: 31003
+spring:
+  application:
+    name: edu-online-searchserver
+
+#自定义配置elasticsearch服务地址
+edu:
+  elasticsearch: ${eshostlist:127.0.0.1:9200} #多个结点中间用逗号分隔  若eshostlist不存在则127.0.0.1:9200
+  index: edu_course  #索引库名称
+  type: doc #索引库类型
+  source_field: id,name,grade,description,courseplan,mt,st,charge,valid,pic,qq,price,price_old,status,studymodel,teachmode,expires,pub_time,start_time,end_time
+
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://eureka01:10001/eureka/
+  instance:
+    ip-address: 127.0.0.1
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port} #指定实例id
+

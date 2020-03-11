@@ -5,7 +5,6 @@ import lombok.ToString;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.util.Date;
 
 /**
  * @Classname CourseMarket
@@ -25,11 +24,11 @@ public class CourseMarket {
     private String charge;
     private String valid;
     private String qq;
-    private Float price;
+    private Double price;
     @Column(name = "price_old")
-    private Float priceOld;
+    private Double priceOld;
     @Column(name = "start_time")
-    private Date startTime;
+    private String startTime;
     @Column(name = "end_time")
-    private Date endTime;
+    private String endTime;
 }

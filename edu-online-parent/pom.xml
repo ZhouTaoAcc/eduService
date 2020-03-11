@@ -136,7 +136,7 @@
                 <artifactId>fastdfs-client-java</artifactId>
                 <version>${fastdfs-client-java.version}</version>
             </dependency>
-            <!--全文检索 索引数据库elasticsearch-->
+            <!--全文检索 索引数据库elasticsearch java客户端工具-->
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
                 <artifactId>elasticsearch-rest-high-level-client</artifactId>

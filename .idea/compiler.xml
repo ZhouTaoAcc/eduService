@@ -15,6 +15,7 @@
         <module name="edu-online-manage-course" />
         <module name="edu-online-model" />
         <module name="edu-online-parent" />
+        <module name="edu-online-searchServer" />
         <module name="edu-online-ucenter" />
         <module name="edu-online-ucenter-oauth2" />
         <module name="edu-online-utils" />
@@ -33,6 +34,7 @@
       <module name="edu-online-manage-course" target="1.8" />
       <module name="edu-online-model" target="1.8" />
       <module name="edu-online-parent" target="1.8" />
+      <module name="edu-online-searchServer" target="1.8" />
       <module name="edu-online-testFreemaker" target="1.5" />
       <module name="edu-online-ucenter" target="1.8" />
       <module name="edu-online-ucenter-auth2" target="1.8" />

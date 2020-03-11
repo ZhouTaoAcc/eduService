@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-ucenter/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-online-searchServer/pom.xml" />
       </list>
     </option>
   </component>
