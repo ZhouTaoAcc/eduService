@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @Classname QueryResponseResult
- * @Description 封装响应状态和响应结果（包括总记录数） 它用于通用的返回类型
+ * @Description 封装响应状态和响应结果（包括总记录数） 它用于通用的分页查询的返回类型
  * @Date 2019/12/7 17:25
  * @Created by zhoutao
  */

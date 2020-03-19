@@ -24,6 +24,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -82,7 +83,7 @@ public class SearchServerService {
         }
         //分页
         //起始记录下标
-        int from  = page*size;
+        int from = page * size;
         searchSourceBuilder.from(from).size(size);
         //设置查询方式
         searchSourceBuilder.query(boolQueryBuilder);
@@ -104,22 +105,22 @@ public class SearchServerService {
             SearchHits hits = searchResponse.getHits();
             long count = hits.getTotalHits();
             SearchHit[] searchHits = hits.getHits();
-            for(SearchHit hit:searchHits){
+            for (SearchHit hit : searchHits) {
                 CoursePub coursePub = new CoursePub();
                 //源文档
                 Map<String, Object> sourceAsMap = hit.getSourceAsMap();
                 //取出id
-                String id = (String)sourceAsMap.get("id");
+                String id = (String) sourceAsMap.get("id");
                 coursePub.setId(id);
                 //取出name
                 String name = (String) sourceAsMap.get("name");
                 Map<String, HighlightField> highlightFields = hit.getHighlightFields();
-                if(highlightFields!=null){
+                if (highlightFields != null) {
                     HighlightField highlightFieldName = highlightFields.get("name");
-                    if(highlightFieldName!=null){
+                    if (highlightFieldName != null) {
                         Text[] fragments = highlightFieldName.fragments();
                         StringBuffer stringBuffer = new StringBuffer();
-                        for(Text text:fragments){
+                        for (Text text : fragments) {
                             stringBuffer.append(text);
                         }
                         name = stringBuffer.toString();
@@ -135,11 +136,14 @@ public class SearchServerService {
                 //图片
                 String pic = (String) sourceAsMap.get("pic");
                 coursePub.setPic(pic);
+                //收费规则
+                String charge = (String) sourceAsMap.get("charge");
+                coursePub.setCharge(charge);
                 //价格
-                Double price=(Double) sourceAsMap.get("price");
+                Double price = (Double) sourceAsMap.get("price");
                 coursePub.setPrice(price);
                 //原价格
-                Double  price_old= (Double)  sourceAsMap.get("price_old");
+                Double price_old = (Double) sourceAsMap.get("price_old");
                 coursePub.setPriceOld(price_old);
                 //将coursePub对象放入list
                 list.add(coursePub);
@@ -149,6 +153,47 @@ public class SearchServerService {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return new QueryResponseResult(CommonCode.SUCCESS,queryResult);
+        return new QueryResponseResult(CommonCode.SUCCESS, queryResult);
+    }
+
+    public Map<String, CoursePub> getCourseAll(String courseId) {
+        SearchRequest searchRequest = new SearchRequest("edu_course");
+        searchRequest.types("doc");
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        //设置过滤字段
+        String[] includes = source_field.split(",");
+        searchSourceBuilder.fetchSource(includes, new String[]{});
+        //精确查询
+        searchSourceBuilder.query(QueryBuilders.termQuery("id", courseId));
+        searchRequest.source(searchSourceBuilder);
+        try {
+            SearchResponse response = restHighLevelClient.search(searchRequest);
+            SearchHits responseHits = response.getHits();
+            SearchHit[] hits = responseHits.getHits();
+            CoursePub coursePub = new CoursePub();
+            HashMap<String, CoursePub> map = new HashMap<>();
+            for (SearchHit res : hits) {
+                String id = res.getId();//课程id
+                Map<String, Object> sourceAsMap = res.getSourceAsMap();
+                String name = (String) sourceAsMap.get("name");
+                String grade = (String) sourceAsMap.get("grade");
+                String charge = (String) sourceAsMap.get("charge");
+                String pic = (String) sourceAsMap.get("pic");
+                String description = (String) sourceAsMap.get("description");
+                String courseplan = (String) sourceAsMap.get("courseplan");
+                coursePub.setId(id);
+                coursePub.setName(name);
+                coursePub.setPic(pic);
+                coursePub.setCharge(charge);
+                coursePub.setGrade(grade);
+                coursePub.setCourseplan(courseplan);
+                coursePub.setDescription(description);
+                map.put(id, coursePub);
+            }
+            return map;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

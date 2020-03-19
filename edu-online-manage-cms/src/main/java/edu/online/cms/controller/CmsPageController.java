@@ -25,13 +25,11 @@ public class CmsPageController implements CmsPageControllerApi {
 
     //分页查询
     @Override
-    @GetMapping("/list/{pageNo}/{pageSize}/{startDate}/{endDate}")
+    @GetMapping("/list/{pageNo}/{pageSize}")
     public QueryResponseResult findList(@PathVariable("pageNo") int pageNo,
                                         @PathVariable("pageSize") int pageSize,
-                                        @PathVariable("startDate") String d,
-                                        @PathVariable("endDate") String d2,
                                         QueryPageRequest queryPageRequest) {
-        return cmsPageService.findList(pageNo, pageSize, d, d2, queryPageRequest);
+        return cmsPageService.findList(pageNo, pageSize, queryPageRequest);
     }
 
     //添加页面

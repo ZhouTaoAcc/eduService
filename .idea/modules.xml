@@ -6,9 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/edu-online-common/edu-online-common.iml" filepath="$PROJECT_DIR$/edu-online-common/edu-online-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-eureka-server/edu-online-eureka-server.iml" filepath="$PROJECT_DIR$/edu-online-eureka-server/edu-online-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-fileServer/edu-online-fileServer.iml" filepath="$PROJECT_DIR$/edu-online-fileServer/edu-online-fileServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-learning/edu-online-learning.iml" filepath="$PROJECT_DIR$/edu-online-learning/edu-online-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" filepath="$PROJECT_DIR$/edu-online-manage-cms/edu-online-manage-cms.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-cms-client/edu-online-manage-cms-client.iml" filepath="$PROJECT_DIR$/edu-online-manage-cms-client/edu-online-manage-cms-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" filepath="$PROJECT_DIR$/edu-online-manage-course/edu-online-manage-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-manage-media/edu-online-manage-media.iml" filepath="$PROJECT_DIR$/edu-online-manage-media/edu-online-manage-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edu-online-manage-media-client/edu-online-manage-media-client.iml" filepath="$PROJECT_DIR$/edu-online-manage-media-client/edu-online-manage-media-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-model/edu-online-model.iml" filepath="$PROJECT_DIR$/edu-online-model/edu-online-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" filepath="$PROJECT_DIR$/edu-online-parent/edu-online-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/edu-online-searchServer/edu-online-searchServer.iml" filepath="$PROJECT_DIR$/edu-online-searchServer/edu-online-searchServer.iml" />

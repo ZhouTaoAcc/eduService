@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * @Classname FileSystem
- * @Description TODO
+ * @Description 图片文件信息
  * @Date 2020/2/27 16:55
  * @Created by zhoutao
  */
@@ -19,7 +19,7 @@ import java.util.Map;
 public class FileSystem {
     @Id
     private String fileId;
-    //文件请求路径
+    //文件请求路径(和fileId一样)
     private String filePath;
     //文件大小
     private long fileSize;

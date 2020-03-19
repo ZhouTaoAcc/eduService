@@ -127,7 +127,7 @@ public class TestSearch {
     @Test
     public void testGetDoc() throws IOException {
         //搜索指定id的文档
-        GetRequest getRequest = new GetRequest("edu_course_index", "doc", "pXQgwHAB3Fn_R0J5rsMa");
+        GetRequest getRequest = new GetRequest("edu_course", "doc", "pXQgwHAB3Fn_R0J5rsMa");
         GetResponse getResponse = restHighLevelClient.get(getRequest);
         Map<String, Object> sourceAsMap = getResponse.getSourceAsMap();
         System.out.println(sourceAsMap);
@@ -136,7 +136,7 @@ public class TestSearch {
     @Test
     public void testUpdateDoc() throws IOException {
         //删除指定id的文档
-        UpdateRequest updateRequest = new UpdateRequest("edu_course_index", "doc", "pXQgwHAB3Fn_R0J5rsMa");
+        UpdateRequest updateRequest = new UpdateRequest("edu_course", "doc", "pXQgwHAB3Fn_R0J5rsMa");
 
         Map<String, Object> map = new HashMap<>();
         map.put("name", "java实战");
@@ -148,7 +148,7 @@ public class TestSearch {
 
     @Test
     public void testDeleteDoc() throws IOException {
-        DeleteRequest deleteRequest = new DeleteRequest("edu_course_index", "doc", "%{id}");
+        DeleteRequest deleteRequest = new DeleteRequest("edu_course", "doc", "4028e58161bd3b380161bd3bcd2f0000");
         DeleteResponse response = restHighLevelClient.delete(deleteRequest);
         DocWriteResponse.Result result = response.getResult();
         System.out.println(result);
@@ -158,7 +158,7 @@ public class TestSearch {
     @Test
     public void testGetDoc_DSL() throws IOException {
         //搜索请求对象
-        SearchRequest searchRequest = new SearchRequest("edu_course_index");
+        SearchRequest searchRequest = new SearchRequest("edu_course");
         //指定类型
         searchRequest.types("doc");
         //创建搜索源对象

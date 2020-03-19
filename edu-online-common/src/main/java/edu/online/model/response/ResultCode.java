@@ -2,7 +2,7 @@ package edu.online.model.response;
 
 /**
  * @Classname ResultCode
- * @Description 封装返回结果状态
+ * @Description 封装方法返回结果状态
  * @Date 2019/12/7 16:39
  * @Created by zhoutao
  */

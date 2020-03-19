@@ -30,7 +30,6 @@ public class CoursePlan {
     private String ptype;
     private String description;
     private String courseid;
-    private String status;
     private Integer orderby;
     private Double timelength;
     private String trylearn;

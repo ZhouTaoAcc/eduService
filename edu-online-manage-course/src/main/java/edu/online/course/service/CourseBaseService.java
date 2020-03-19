@@ -41,8 +41,8 @@ public class CourseBaseService {
         if (courseBaseRequest == null) {
             courseBaseRequest = new CourseBaseRequest();
         }
-        //PageHelper设置分页
-        PageHelper.startPage(pageNo, pageSize);
+        //PageHelper设置分页(pageNo 从1开始1 2 3..)
+        PageHelper.startPage(pageNo+1, pageSize);
         //分页查询
         Page<CourseBaseVO> courseBaseVO = courseMapper.findCourseBaseList(courseBaseRequest);
         //查询列表

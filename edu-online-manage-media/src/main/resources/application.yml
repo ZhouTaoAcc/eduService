@@ -1,0 +1,23 @@
+server:
+  port: 31004
+spring:
+  application:
+    name: xc-service-manage-media
+  data:
+    mongodb:
+      uri:  mongodb://localhost:27017
+      database: edu_media
+edu-media: #媒资上传地址
+  upload-location: F:/video/
+  mq: #自定义路由key
+    routingkey-media-video: routingkey_media_video
+eureka:
+  client:
+    registerWithEureka: true #服务注册开关
+    fetchRegistry: true #服务发现开关
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址，多个中间用逗号分隔
+      defaultZone: http://localhost:10001/eureka/
+  instance:
+    prefer-ip-address:  true  #将自己的ip地址注册到Eureka服务中
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port} #指定实例id

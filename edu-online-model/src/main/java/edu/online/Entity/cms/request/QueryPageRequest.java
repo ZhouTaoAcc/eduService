@@ -30,4 +30,7 @@ public class QueryPageRequest {
     @ApiModelProperty("页面别名")
     private String pageAliase;
     //....
+    //查询日期
+    private String startDate;
+    private String endDate;
 }

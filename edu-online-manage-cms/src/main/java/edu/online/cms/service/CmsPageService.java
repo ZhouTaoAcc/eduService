@@ -68,7 +68,7 @@ public class CmsPageService {
     RabbitTemplate rabbitTemplate; //消息中间件
 
     /*1、分页查询业务逻辑*/
-    public QueryResponseResult findList(int pageNo, int pageSize, String d, String d2, QueryPageRequest queryPageRequest) {
+    public QueryResponseResult findList(int pageNo, int pageSize, QueryPageRequest queryPageRequest) {
         /*===方法1、ExampleMatcher匹配器====*/
         /*1.ExampleMatcher exampleMatcher
         2.PageRequest.of(pageNo, pageSize)
@@ -88,18 +88,17 @@ public class CmsPageService {
         }
         //站点ID --精确查询
         if (!StringUtils.isEmpty(queryPageRequest.getSiteId())) {
-            Pattern pattern = Pattern.compile("^" + queryPageRequest.getSiteId() + "$", Pattern.CASE_INSENSITIVE);
-            query.addCriteria(Criteria.where("siteId").regex(pattern));
+            query.addCriteria(Criteria.where("siteId").is(queryPageRequest.getSiteId()));
         }
         //页面别称--模糊查询
         if (!StringUtils.isEmpty(queryPageRequest.getPageAliase())) {
             Pattern pattern = Pattern.compile("^.*" + queryPageRequest.getPageAliase() + ".*$", Pattern.CASE_INSENSITIVE);
             query.addCriteria(Criteria.where("pageAliase").regex(pattern));
         }
-        if ((!StringUtils.isEmpty(d) && !StringUtils.isEmpty(d2))) {
+        if ((!StringUtils.isEmpty(queryPageRequest.getStartDate()) && !StringUtils.isEmpty(queryPageRequest.getEndDate()))) {
             query.addCriteria(Criteria.where("pageCreateTime")
-                    .gte(DateUtil.dateStrToISODate(d))//时间转换 CST->UTC
-                    .lte(DateUtil.dateStrToISODate(d2)));
+                    .gte(DateUtil.dateStrToISODate(queryPageRequest.getStartDate()))//时间转换 CST->UTC
+                    .lte(DateUtil.dateStrToISODate(queryPageRequest.getEndDate())));
         }
         //计算总数
         long total = mongoTemplate.count(query, CmsPage.class);

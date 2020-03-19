@@ -131,6 +131,6 @@ public class UcenterAuthService {
         String string = clientId + ":" + clientSecret;
         //将串进行base64编码
         byte[] encode = Base64Utils.encode(string.getBytes());
-        return "Basic " + new String(encode);//主要Basic后面有个空格
+        return "Basic " + new String(encode);//注意Basic后面有个空格
     }
 }
