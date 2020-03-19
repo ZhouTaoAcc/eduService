@@ -5,78 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be42fb7-62a3-4f7b-8227-8fe6826321c1" name="Default" comment="页面列表的增删改查">
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/course/CoursePlanMediaControllerApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/learning/LearningCourseControllerApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/meida/MediaFileControllerApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/meida/MediaUploadControllerApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/edu-online-learning.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/src/main/java/edu/online/learning/LearningCenterApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/src/main/java/edu/online/learning/controller/LearningCourseController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/src/main/java/edu/online/learning/dao/LearningCourseRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/src/main/java/edu/online/learning/feign/CourseFeign.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/src/main/java/edu/online/learning/service/LearningCourseService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-learning/src/test/java/edu/online/learning/test/TestFindCourse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/controller/CoursePlanMediaController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/dao/CoursePlanMediaRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CoursePlanMediaService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/edu-online-manage-media-client.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/MQ/ComsumerProcessMedia.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/ManageMediaClientApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/config/RabbitMqConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/edu-online-manage-media.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/MediaManageApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/config/RabbitMQConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/controller/MediaFileController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/controller/MediaUploadController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/dao/MediaFileRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaFileService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaUploadService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CourseplanMedia.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/learning/LearningCourse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/learning/response/GetMediaResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/learning/response/LearningCode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/learning/response/LearningCourseResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess_m3u8.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/request/QueryMediaFileRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/response/MediaCode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/response/MediaFileResponseResult.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/dao/MediaFileRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/HlsVideoUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/Mp4VideoUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/VideoUtil.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/CmsPageControllerApi.java" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/cms/CmsPageControllerApi.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/search/SearchServerControllerApi.java" afterPath="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/search/SearchServerControllerApi.java" />
       <change beforePath="$PROJECT_DIR$/edu-online-API/target/classes/edu/online/api/cms/CmsPageControllerApi.class" afterPath="$PROJECT_DIR$/edu-online-API/target/classes/edu/online/api/cms/CmsPageControllerApi.class" />
-      <change beforePath="$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/QueryResponseResult.java" afterPath="$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/QueryResponseResult.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/ResultCode.java" afterPath="$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/ResultCode.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPageController.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/controller/CmsPageController.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/MQ/ConsumerPostPage.java" afterPath="$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/MQ/ConsumerPostPage.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-cms-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/edu-online-manage-cms-client/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/application.yml" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/application.yml" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/ManageCmsApplication.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/ManageCmsApplication.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/controller/CmsPageController.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/controller/CmsPageController.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/service/CmsPageService.class" afterPath="$PROJECT_DIR$/edu-online-manage-cms/target/classes/edu/online/cms/service/CmsPageService.class" />
-      <change beforePath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java" afterPath="$PROJECT_DIR$/edu-online-manage-course/src/main/java/edu/online/course/service/CourseBaseService.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/request/QueryPageRequest.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/cms/request/QueryPageRequest.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/fileserver/FileSystem.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/fileserver/FileSystem.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/search/request/CourseSearchParam.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/search/request/CourseSearchParam.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-media-client/edu-online-manage-media-client.iml" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/edu-online-manage-media-client.iml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-media-client/pom.xml" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/MQ/ComsumerProcessMedia.java" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/MQ/ComsumerProcessMedia.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/ManageMediaClientApplication.java" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/ManageMediaClientApplication.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/config/RabbitMqConfig.java" afterPath="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/config/RabbitMqConfig.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaUploadService.java" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaUploadService.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-manage-media/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/edu-online-manage-media/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFile.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFile.java" />
+      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess_m3u8.java" afterPath="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess_m3u8.java" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/CmsTemplate.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/CmsTemplate.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/request/QueryPageRequest.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/request/QueryPageRequest.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsCode.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsCode.class" />
       <change beforePath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsResponseResult.class" afterPath="$PROJECT_DIR$/edu-online-model/target/classes/edu/online/Entity/cms/response/CmsResponseResult.class" />
-      <change beforePath="$PROJECT_DIR$/edu-online-parent/pom.xml" afterPath="$PROJECT_DIR$/edu-online-parent/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/edu-online-searchServer/src/main/java/edu/online/search/controller/SearchServerController.java" afterPath="$PROJECT_DIR$/edu-online-searchServer/src/main/java/edu/online/search/controller/SearchServerController.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-searchServer/src/main/java/edu/online/search/service/SearchServerService.java" afterPath="$PROJECT_DIR$/edu-online-searchServer/src/main/java/edu/online/search/service/SearchServerService.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-searchServer/src/test/java/edu/online/search/test/TestSearch.java" afterPath="$PROJECT_DIR$/edu-online-searchServer/src/test/java/edu/online/search/test/TestSearch.java" />
-      <change beforePath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java" afterPath="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/edu-online-parent/target/" />
     <ignored path="$PROJECT_DIR$/edu-online-common/target/" />
@@ -130,18 +85,7 @@
     <favorites_list name="eduService" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MediaUploadController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/controller/MediaUploadController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -181,6 +125,8 @@
       <find>mongoTemplate</find>
       <find>edu_course</find>
       <find>rabbitTemplate</find>
+      <find>cmsSiteService</find>
+      <find>commend</find>
     </findStrings>
     <replaceStrings>
       <replace>pageNo</replace>
@@ -191,6 +137,7 @@
       <replace>站点</replace>
       <replace>eduonline</replace>
       <replace>edu_course_index</replace>
+      <replace>list</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -204,14 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/learning/response/LearningCode.java" />
-        <option value="$PROJECT_DIR$/edu-online-learning/src/test/java/edu/online/learning/test/TestFindCousrse.java" />
-        <option value="$PROJECT_DIR$/edu-online-learning/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/edu-online-learning/src/main/java/edu/online/learning/dao/LearningCourseRepository.java" />
-        <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/search/SearchServerControllerApi.java" />
-        <option value="$PROJECT_DIR$/edu-online-searchServer/src/main/java/edu/online/search/service/SearchServerService.java" />
-        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/learning/response/LearningCourseResponse.java" />
-        <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/oauth/UcenterAuthControllerApi.java" />
         <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/learning/LearningCourseControllerApi.java" />
         <option value="$PROJECT_DIR$/edu-online-learning/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-learning/src/test/java/edu/online/learning/test/TestFindCourse.java" />
@@ -231,7 +170,6 @@
         <option value="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaService.java" />
         <option value="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/controller/MediaController.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess.java" />
-        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess_m3u8.java" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/response/MediaFileResponseResult.java" />
         <option value="$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/ResponseResult.java" />
         <option value="$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/ResultCode.java" />
@@ -244,17 +182,26 @@
         <option value="$PROJECT_DIR$/edu-online-ucenter-oauth2/src/main/java/edu/online/oauth/service/UcenterAuthService.java" />
         <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/meida/MediaFileControllerApi.java" />
         <option value="$PROJECT_DIR$/edu-online-API/src/main/java/edu/online/api/meida/MediaUploadControllerApi.java" />
-        <option value="$PROJECT_DIR$/edu-online-manage-media/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/response/MediaCode.java" />
         <option value="$PROJECT_DIR$/edu-online-parent/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-manage-media/pom.xml" />
         <option value="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/config/RabbitMQConfig.java" />
-        <option value="$PROJECT_DIR$/edu-online-manage-media-client/pom.xml" />
-        <option value="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/config/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaUploadService.java" />
-        <option value="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/ManageMediaClientApplication.java" />
-        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFile.java" />
         <option value="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/controller/MediaUploadController.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaUploadService.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/MQ/ConsumerPostPage.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/dao/MediaFileRepository.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/ManageMediaClientApplication.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/config/RabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-media-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/edu-online-manage-media-client/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess_m3u8.java" />
+        <option value="$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/VideoUtil.java" />
+        <option value="$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/Mp4VideoUtil.java" />
+        <option value="$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/HlsVideoUtil.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/MQ/ComsumerProcessMedia.java" />
+        <option value="$PROJECT_DIR$/edu-online-manage-media/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFile.java" />
       </list>
     </option>
   </component>
@@ -278,9 +225,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1566" />
+    <option name="x" value="-544" />
+    <option name="width" value="1700" />
     <option name="height" value="971" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -1323,13 +1269,6 @@
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="eduService" type="462c0819:PsiDirectoryNode" />
-              <item name="edu-online-manage-media" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eduService" type="462c0819:PsiDirectoryNode" />
               <item name="edu-online-manage-media-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1434,7 +1373,29 @@
               <item name="manage" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-media-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="online" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="MQ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eduService" type="462c0819:PsiDirectoryNode" />
+              <item name="edu-online-manage-media-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eduService" type="b2602c69:ProjectViewProjectNode" />
@@ -1966,26 +1927,26 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\javaCode\eduService\edu-online-ucenter-oauth2\src\main\resources" />
+      <recent name="F:\javaCode\eduService" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="edu.online.test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.online.utils" />
+      <recent name="edu.online.manage.media.client.dao" />
+      <recent name="edu.online.manage.media.client.config" />
+      <recent name="edu.online.manage.media.config" />
+      <recent name="edu.online.Entity.media.request" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javaCode\eduService\edu-online-manage-media-client\src\main\resources" />
       <recent name="F:\javaCode\eduService\edu-online-model\src\main\java\edu\online\Entity\media" />
       <recent name="F:\javaCode\eduService\edu-online-model\src\main\java\edu\online\Entity\learning\response" />
       <recent name="F:\javaCode\eduService\testFreemaker\src\main\resources\templates" />
       <recent name="F:\javaCode\eduService\edu-online-eureka-server\src\main\resources" />
-      <recent name="F:\javaCode\eduService\edu-online-eureka-register\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="edu.online.manage.media.client.config" />
-      <recent name="edu.online.manage.media.config" />
-      <recent name="edu.online.Entity.media.request" />
-      <recent name="edu.online.Entity.media.response" />
-      <recent name="edu.online.Entity.course" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\javaCode\eduService\edu-online-ucenter-oauth2\src\main\resources" />
-      <recent name="F:\javaCode\eduService" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2004,7 +1965,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.1626506" />
+    <option name="contentProportion" value="0.21577218" />
   </component>
   <component name="RunManager" selected="Spring Boot.MediaManageApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -2187,6 +2148,12 @@
       <module name="edu-online-manage-course" />
       <envs />
     </configuration>
+    <configuration name="ManageMediaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.online.manage.media.client.ManageMediaClientApplication" />
+      <module name="edu-online-manage-media-client" />
+      <envs />
+    </configuration>
     <configuration name="MediaManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2255,7 +2222,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="16">
+    <list size="17">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Eureka01" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Eureka02" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ManageCmsApplication" />
@@ -2272,6 +2239,7 @@
       <item index="13" class="java.lang.String" itemvalue="Spring Boot.LearningCenterApplication" />
       <item index="14" class="java.lang.String" itemvalue="JUnit.TestFindCourse.findLearnCourse" />
       <item index="15" class="java.lang.String" itemvalue="Spring Boot.MediaManageApplication" />
+      <item index="16" class="java.lang.String" itemvalue="Spring Boot.ManageMediaClientApplication" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -2345,7 +2313,7 @@
       <workItem from="1583559765436" duration="86609000" />
       <workItem from="1583992338436" duration="11362000" />
       <workItem from="1584170153984" duration="52203000" />
-      <workItem from="1584597687360" duration="1620000" />
+      <workItem from="1584597687360" duration="13164000" />
     </task>
     <task id="LOCAL-00001" summary="正则表达式模糊查询">
       <created>1581476573520</created>
@@ -2452,7 +2420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583922623291</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="媒资文件分块上传+断点续传">
+      <created>1584602222898</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584602222898</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2488,7 +2463,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="669124000" />
+    <option name="totallyTimeSpent" value="680668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2501,7 +2476,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2515,6 +2489,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49418604" sideWeight="0.49791667" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25697675" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -2524,7 +2499,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5582192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25107297" sideWeight="0.49507388" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21566524" sideWeight="0.49507388" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2534,7 +2509,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25697675" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32418302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2627,10 +2601,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/MQ/ComsumerProcessMedia.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="592" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="589" />
+      <option name="time" value="594" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -2639,90 +2621,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/config/RabbitMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1532">
-          <caret line="44" column="56" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-learning/src/main/java/edu/online/learning/feign/CourseFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-learning/src/main/java/edu/online/learning/controller/LearningCourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-course/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/fileserver/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-learning/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/response/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/learning/response/LearningCourseResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-common/src/main/java/edu/online/model/request/RequestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/search/request/CourseSearchParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
@@ -2762,16 +2660,6 @@
         <state relative-caret-position="275">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/dao/MediaFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2897,53 +2785,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/config/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="75" lean-forward="false" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1249">
-          <caret line="315" column="34" lean-forward="false" selection-start-line="315" selection-start-column="33" selection-end-line="315" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edu-online-manage-media/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="74" column="34" lean-forward="false" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/MQ/ComsumerProcessMedia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/config/RabbitMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-775">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2955,30 +2801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/ManageMediaClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#392#393#0" expanded="false" />
-            <element signature="e#465#466#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/MediaManageApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -3012,45 +2838,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaUploadService.java">
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms/src/main/java/edu/online/cms/service/CmsPageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="306" column="53" lean-forward="true" selection-start-line="306" selection-start-column="53" selection-end-line="306" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/ManageCmsClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-cms-client/src/main/java/edu/online/cms/client/MQ/ConsumerPostPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess_m3u8.java">
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/dao/MediaFileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/config/RabbitMQConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFile.java">
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/dao/MediaFileRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1623">
-          <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="15" />
+        <state relative-caret-position="390">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess.java">
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/config/RabbitMqConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="117">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/controller/MediaUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="117">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository3/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/course/CoursePlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess_m3u8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/HlsVideoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/VideoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-664">
+          <caret line="83" column="39" lean-forward="false" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/MQ/ComsumerProcessMedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1029">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/java/edu/online/manage/media/service/MediaUploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding>
+            <element signature="method#checkFileMd5#0;class#MediaUploadService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFileProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-model/src/main/java/edu/online/Entity/media/MediaFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-manage-media-client/src/main/java/edu/online/manage/media/client/ManageMediaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edu-online-utils/src/main/java/edu/online/utils/Mp4VideoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1116#1124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

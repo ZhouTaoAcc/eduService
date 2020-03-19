@@ -29,7 +29,7 @@ public class MediaFile {
     private String fileOriginalName;
     //文件路径
     private String filePath;
-    //文件url
+    //文件url也就是m3u8的相对路径 用于播放d
     private String fileUrl;
     //文件类型
     private String fileType;

@@ -1,20 +1,22 @@
 server:
-  port: 31004
+  port: 31005
 spring:
   application:
-    name: edu-service-manage-media
+    name: edu-online-manage-media-client
   data:
     mongodb:
       uri:  mongodb://localhost:27017
       database: edu_media
   rabbitmq:
-    host: localhost
+    host: 127.0.0.1
     port: 5672
     username: guest
     password: guest
     virtual-host: /
+
 edu-media: #媒资上传地址
-  upload-location: F:/video/
+  video-location: F:/video/
+  ffmpeg-path: E:/ffmpeg-20180227-fa0c9d6-win64-static/bin/ffmpeg.exe #ffmpeg.exe.exe地址
   mq: #自定义路由key
     routingkey-media-video: routingkey_media_video
 eureka:
@@ -27,5 +29,3 @@ eureka:
     prefer-ip-address:  true  #将自己的ip地址注册到Eureka服务中
     ip-address: 127.0.0.1
     instance-id: ${spring.application.name}:${server.port} #指定实例id
-
-

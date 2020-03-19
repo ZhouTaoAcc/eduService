@@ -186,7 +186,7 @@ public class MediaUploadService {
         mediaFile.setFileStatus("301002");
         mediaFileRepository.save(mediaFile);
         //向MQ发送视频处理消息
-        //this.sendProcessVideoMQ(mediaFile.getFileId());
+        this.sendProcessVideoMQ(mediaFile.getFileId());
         return new ResponseResult(CommonCode.SUCCESS);
     }
 

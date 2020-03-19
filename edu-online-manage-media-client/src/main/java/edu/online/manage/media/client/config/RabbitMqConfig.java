@@ -20,7 +20,7 @@ public class RabbitMqConfig {
     //交换机的名称
     public static final String EX_MEDIA_PROCESSTASK = "ex_media_processor";
     //视频处理路由
-    @Value("${edu.mq.routingkey-media-video}")
+    @Value("${edu-media.mq.routingkey-media-video}")
     public  String routingkey_media_video;
 
     /**
