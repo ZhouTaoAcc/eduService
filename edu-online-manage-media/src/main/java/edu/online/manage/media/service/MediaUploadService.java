@@ -30,7 +30,7 @@ public class MediaUploadService {
     @Autowired
     MediaFileRepository mediaFileRepository;
 
-    @Value("${edu-media.upload-location}")
+    @Value("${edu-media.video-location}")
     String upload_location; //文件上传路径
     @Value("${edu-media.mq.routingkey-media-video}")
     String routingkey_media_video;

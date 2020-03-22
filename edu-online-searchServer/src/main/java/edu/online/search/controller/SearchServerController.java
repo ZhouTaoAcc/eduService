@@ -1,6 +1,7 @@
 package edu.online.search.controller;
 
 import edu.online.Entity.course.CoursePub;
+import edu.online.Entity.course.CourseplanMedia;
 import edu.online.Entity.search.request.CourseSearchParam;
 import edu.online.api.search.SearchServerControllerApi;
 import edu.online.model.response.QueryResponseResult;
@@ -37,7 +38,7 @@ public class SearchServerController implements SearchServerControllerApi {
     }
 
     /**
-     * @return java.util.Map<java.lang.String   ,   edu.online.Entity.course.CoursePub>
+     * @return java.util.Map<java.lang.String , edu.online.Entity.course.CoursePub>
      * @Description 根据课程id 从ES中查询课程的全部信息
      * @Param [id]
      **/
@@ -45,6 +46,17 @@ public class SearchServerController implements SearchServerControllerApi {
     @GetMapping("/getall/{id}")
     public Map<String, CoursePub> getCourseAll(@PathVariable("id") String courseId) {
         return searchServerService.getCourseAll(courseId);
+    }
+
+    /**
+     * @return edu.online.Entity.course.CourseplanMedia
+     * @Description 根据课程计划id 从es中查询课程计划的媒资
+     * @Param [courseplanId]
+     **/
+    @Override
+    @GetMapping("/getmedia/{id}")
+    public CourseplanMedia getmedia(@PathVariable("id") String courseplanId) {
+        return searchServerService.getmedia(courseplanId);
     }
 
 }

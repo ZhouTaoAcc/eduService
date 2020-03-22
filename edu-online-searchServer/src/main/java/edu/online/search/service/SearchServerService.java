@@ -1,6 +1,7 @@
 package edu.online.search.service;
 
 import edu.online.Entity.course.CoursePub;
+import edu.online.Entity.course.CourseplanMedia;
 import edu.online.Entity.search.request.CourseSearchParam;
 import edu.online.model.response.CommonCode;
 import edu.online.model.response.QueryResponseResult;
@@ -45,6 +46,7 @@ public class SearchServerService {
     @Autowired
     RestHighLevelClient restHighLevelClient;
 
+    //分页查询课程列表
     public QueryResponseResult list(int page, int size, CourseSearchParam courseSearchParam) {
         if (courseSearchParam == null) {
             courseSearchParam = new CourseSearchParam();
@@ -156,9 +158,10 @@ public class SearchServerService {
         return new QueryResponseResult(CommonCode.SUCCESS, queryResult);
     }
 
+    //查询课程全部信息
     public Map<String, CoursePub> getCourseAll(String courseId) {
-        SearchRequest searchRequest = new SearchRequest("edu_course");
-        searchRequest.types("doc");
+        SearchRequest searchRequest = new SearchRequest(es_index);
+        searchRequest.types(es_type);
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
         //设置过滤字段
         String[] includes = source_field.split(",");
@@ -194,6 +197,11 @@ public class SearchServerService {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
+    }
+
+    //查询课程计划的媒资信息
+    public CourseplanMedia getmedia(String courseplanId) {
         return null;
     }
 }

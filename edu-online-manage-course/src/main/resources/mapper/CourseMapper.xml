@@ -86,7 +86,7 @@
     </select>
     <select id="findCourseBaseById" parameterType="java.lang.String"
             resultType="edu.online.Entity.course.CourseBase">
-        SELECT *
+        SELECT *,company_id as companyId
         FROM course_base
         WHERE id = #{id}
     </select>

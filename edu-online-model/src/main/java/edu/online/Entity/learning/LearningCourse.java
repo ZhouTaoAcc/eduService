@@ -23,10 +23,12 @@ public class LearningCourse implements Serializable {
     @GeneratedValue(generator = "jpa-uuid")
     @Column(length = 32)
     private String id;
+
     @Column(name = "course_id")
     private String courseId;
     @Column(name = "user_id")
     private String userId;
+    private String charge;
     private String valid;
     @Column(name = "start_time")
     private Date startTime;

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.online.learning.dao.LearningCourseMapper">
+    <select id="findLearningCourse" parameterType="edu.online.Entity.learning.request.LearningCourseRequest"
+            resultType="edu.online.Entity.learning.LearningCourse">
+        SELECT id,
+        course_id  CourseId, #通过as取别名和实体类一致
+        user_id  userId,
+        charge,
+        valid,
+        start_time startTime,
+        end_time endTime,
+        status
+        FROM learning_course
+        <where>
+            <if test="learningCourseRequest.userId!=null and learningCourseRequest.userId!=''">
+                And learning_course.user_id  = #{learningCourseRequest.userId}
+            </if>
+            <if test="learningCourseRequest.charge!=null and learningCourseRequest.charge!=''">
+                And learning_course.charge = #{learningCourseRequest.charge}
+            </if>
+            <if test="learningCourseRequest.valid!=null and learningCourseRequest.valid!=''">
+                And learning_course.valid = #{learningCourseRequest.valid}
+            </if>
+        </where>
+
+    </select>
+
+</mapper>

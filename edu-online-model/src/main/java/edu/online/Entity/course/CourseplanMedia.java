@@ -12,7 +12,7 @@ import java.util.Date;
 @Data
 @ToString
 @Entity
-@Table(name = "courseplan_media")
+@Table(name = "course_plan_media")
 @GenericGenerator(name = "jpa-assigned", strategy = "assigned")
 public class CourseplanMedia implements Serializable {
     @Id
@@ -23,8 +23,8 @@ public class CourseplanMedia implements Serializable {
     @Column(name = "media_id")
     private String mediaId;
 
-    @Column(name = "media_fileoriginalname")
-    private String mediaFileOriginalName;
+    @Column(name = "media_name")
+    private String mediaName;
 
     @Column(name = "media_url")
     private String mediaUrl;

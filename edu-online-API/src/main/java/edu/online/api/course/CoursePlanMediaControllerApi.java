@@ -15,4 +15,7 @@ import io.swagger.annotations.ApiOperation;
 public interface CoursePlanMediaControllerApi {
     @ApiOperation("保存课程计划的媒资文件")
     public ResponseResult saveMedia(CourseplanMedia courseplanMedia);
+
+    @ApiOperation("根据id查询课程计划的媒资")
+    public CourseplanMedia findPlanMedia(String courseplanId);
 }

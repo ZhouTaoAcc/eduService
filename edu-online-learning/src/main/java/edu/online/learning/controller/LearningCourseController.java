@@ -1,13 +1,11 @@
 package edu.online.learning.controller;
 
+import edu.online.Entity.learning.request.LearningCourseRequest;
 import edu.online.Entity.learning.response.LearningCourseResponse;
 import edu.online.api.learning.LearningCourseControllerApi;
 import edu.online.learning.service.LearningCourseService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Classname LearningCourseController
@@ -20,14 +18,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class LearningCourseController implements LearningCourseControllerApi {
     @Autowired
     LearningCourseService learningCourseService;
-/**
- * @Description 查询个人选课
- * @Param [userId]
- * @return edu.online.Entity.learning.response.LearningCourseResponse
- **/
+
+    /**
+     * @return edu.online.Entity.learning.response.LearningCourseResponse
+     * @Description 查询个人选课
+     * @Param [userId]
+     **/
     @Override
-    @GetMapping("/course/{userId}")
-    public LearningCourseResponse findLearningCourse(@PathVariable("userId") String userId) {
-        return learningCourseService.findLearningCourse(userId);
+    @PostMapping("/course")
+    public LearningCourseResponse findLearningCourse(@RequestBody LearningCourseRequest learningCourseRequest) {
+        return learningCourseService.findLearningCourse(learningCourseRequest);
     }
 }

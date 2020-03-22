@@ -78,10 +78,10 @@ public class ComsumerProcessMedia {
         //mp4文件路径
         String mp4_path = serverPath + mediaFile.getFilePath() + mp4_name;
         //生成m3u8_name文件名称
-        String m3u8_name = mediaFile.getFileId() +".m3u8";
+        String m3u8_name = mediaFile.getFileId() + ".m3u8";
         //生成m3u8文件所在目录
-        String m3u8folder_name = serverPath + mediaFile.getFilePath()+"hls/";
-        HlsVideoUtil hlsVideoUtil = new HlsVideoUtil(ffmpeg_path,mp4_path,m3u8_name,m3u8folder_name);
+        String m3u8folder_name = serverPath + mediaFile.getFilePath() + "hls/";
+        HlsVideoUtil hlsVideoUtil = new HlsVideoUtil(ffmpeg_path, mp4_path, m3u8_name, m3u8folder_name);
         String m3u8Res = hlsVideoUtil.generateM3u8();
         if (!m3u8Res.equals("success")) {
             //处理失败
@@ -98,9 +98,9 @@ public class ComsumerProcessMedia {
         List<String> ts_list = hlsVideoUtil.get_ts_list();
         MediaFileProcess_m3u8 mediaFileProcess_m3u8 = new MediaFileProcess_m3u8();
         mediaFileProcess_m3u8.setTslist(ts_list);
-
+        mediaFile.setMediaFileProcess_m3u8(mediaFileProcess_m3u8);
         //保存fileUrl（此url就是m3u8文件的相对路径 也就是视频播放的相对路径）
-        String fileUrl =mediaFile.getFilePath() + "hls/"+m3u8_name;
+        String fileUrl = mediaFile.getFilePath() + "hls/" + m3u8_name;
         mediaFile.setFileUrl(fileUrl);
         mediaFileRepository.save(mediaFile);
     }

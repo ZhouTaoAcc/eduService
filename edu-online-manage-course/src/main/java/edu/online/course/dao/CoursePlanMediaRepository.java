@@ -4,8 +4,6 @@ import edu.online.Entity.course.CourseplanMedia;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
 /**
  * @Classname CoursePlanMediaRepository
  * @Description TODO
@@ -14,6 +12,5 @@ import java.util.List;
  */
 @Repository
 public interface CoursePlanMediaRepository extends JpaRepository<CourseplanMedia, String> {
-    //根据课程id查询列表
-    List<CourseplanMedia> findByCourseId(String courseId);
+
 }
