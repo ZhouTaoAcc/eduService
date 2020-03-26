@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
-import java.util.Map;
 
 /**
  * @Classname LearningCourseService
@@ -40,13 +39,13 @@ public class LearningCourseService {
             return new LearningCourseResponse(LearningCode.LEARNING_No_EXITES, null);
         }
         ListIterator<LearningCourse> iterator = learningCourses.listIterator();
-        List<Map<String, CoursePub>> list = new ArrayList<>();
+        List<CoursePub> list = new ArrayList<>();
         while (iterator.hasNext()) {
             LearningCourse learningCourse = iterator.next();
             String courseId = learningCourse.getCourseId();
             //远程调用ES搜索服务查询ES库 课程全部信息
-            Map<String, CoursePub> courseAll = courseFeign.getCourseAll(courseId);
-            list.add(courseAll);
+            CoursePub course = courseFeign.getCourseAll(courseId);
+            list.add(course);
         }
 
         return new LearningCourseResponse(CommonCode.SUCCESS, list);

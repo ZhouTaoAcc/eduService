@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * @Classname LearningCourseResponse
@@ -20,8 +19,8 @@ import java.util.Map;
 @Data
 @ToString
 public class LearningCourseResponse extends ResponseResult{
-    List<Map<String,CoursePub>> list;
-    public LearningCourseResponse(ResultCode resultCode, List<Map<String,CoursePub>> list) {
+    List<CoursePub> list;
+    public LearningCourseResponse(ResultCode resultCode, List<CoursePub> list) {
         super(resultCode);
         this.list=list;
     }

@@ -5,13 +5,15 @@ spring:
     name: edu-online-searchserver
 
 #自定义配置elasticsearch服务地址
-edu:
+edu-course:
   elasticsearch: ${eshostlist:127.0.0.1:9200} #多个结点中间用逗号分隔  若eshostlist不存在则127.0.0.1:9200
   index: edu_course  #索引库名称
   type: doc #索引库类型
   source_field: id,name,grade,description,courseplan,mt,st,charge,valid,pic,qq,price,price_old,status,studymodel,teachmode,expires,pub_time,start_time,end_time
-
-
+edu-course-media:
+  index: edu_course_media  #索引库名称
+  type: doc #索引库类型
+  source_field: courseplan_id,media_id,media_name,media_url,courseid,timestamp
 eureka:
   client:
     fetch-registry: true

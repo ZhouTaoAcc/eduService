@@ -5,8 +5,6 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import java.util.Map;
-
 /**
  * @Classname CourseFeign
  * @Description ES课程索引库信息
@@ -15,6 +13,6 @@ import java.util.Map;
  */
 @FeignClient("edu-online-searchserver")
 public interface CourseFeign {
-    @GetMapping("/course/searchServer/getall/{id}")
-    public Map<String, CoursePub> getCourseAll(@PathVariable("id") String courseId);
+    @GetMapping("/search/course/getall/{id}")
+    public CoursePub getCourseAll(@PathVariable("id") String courseId);
 }

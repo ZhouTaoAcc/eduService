@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ElasticsearchConfig {
 
-    @Value("${edu.elasticsearch}")
+    @Value("${edu-course.elasticsearch}")
     private String hostlist;
 
     @Bean

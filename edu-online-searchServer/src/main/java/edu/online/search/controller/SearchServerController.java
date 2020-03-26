@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Map;
-
 /**
  * @Classname SearchServerController
  * @Description TODO
@@ -21,7 +19,7 @@ import java.util.Map;
  * @Created by zhoutao
  */
 @RestController
-@RequestMapping("/course/searchServer")
+@RequestMapping("/search/course")
 public class SearchServerController implements SearchServerControllerApi {
     @Autowired
     SearchServerService searchServerService;
@@ -44,7 +42,7 @@ public class SearchServerController implements SearchServerControllerApi {
      **/
     @Override
     @GetMapping("/getall/{id}")
-    public Map<String, CoursePub> getCourseAll(@PathVariable("id") String courseId) {
+    public  CoursePub getCourseAll(@PathVariable("id") String courseId) {
         return searchServerService.getCourseAll(courseId);
     }
 

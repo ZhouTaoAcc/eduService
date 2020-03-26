@@ -23,7 +23,7 @@
                 And learning_course.valid = #{learningCourseRequest.valid}
             </if>
         </where>
-
+          order by learning_course.timestamp desc
     </select>
 
 </mapper>

@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
  * @Created by zhoutao
  */
 @RestController
-@RequestMapping("/learning/personal")
+@RequestMapping("/learning/course")
 public class LearningCourseController implements LearningCourseControllerApi {
     @Autowired
     LearningCourseService learningCourseService;
@@ -25,7 +25,7 @@ public class LearningCourseController implements LearningCourseControllerApi {
      * @Param [userId]
      **/
     @Override
-    @PostMapping("/course")
+    @PostMapping("/list")
     public LearningCourseResponse findLearningCourse(@RequestBody LearningCourseRequest learningCourseRequest) {
         return learningCourseService.findLearningCourse(learningCourseRequest);
     }

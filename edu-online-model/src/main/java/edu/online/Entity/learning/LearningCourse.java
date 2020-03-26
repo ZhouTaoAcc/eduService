@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.util.Date;
 /**
  * @Classname LearningCourse
- * @Description 记录用户学习的课程
+ * @Description 用户选择的课程
  * @Date 2020/2/29 16:15
  * @Created by zhoutao
  */
@@ -35,5 +35,6 @@ public class LearningCourse implements Serializable {
     @Column(name = "end_time")
     private Date endTime;
     private String status;
+    private Date timestamp;
 
 }

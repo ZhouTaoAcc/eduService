@@ -4,15 +4,19 @@
     <resultMap id="CoursePlanVO" type="edu.online.Entity.course.vo.CoursePlanVO">
         <id property="id" column="one_id"/>
         <result property="pname" column="one_pname"/>
+        <result property="ptype" column="one_ptype"/>
         <collection property="children" ofType="edu.online.Entity.course.vo.CoursePlanVO">
             <id property="id" column="two_id"/>
             <result property="pname" column="two_pname"/>
+            <result property="ptype" column="two_ptype"/>
             <collection property="children" ofType="edu.online.Entity.course.vo.CoursePlanVO">
                 <id property="id" column="three_id"/>
                 <result property="pname" column="three_pname"/>
+                <result property="ptype" column="three_ptype"/>
                 <collection property="children" ofType="edu.online.Entity.course.vo.CoursePlanVO">
                     <id property="id" column="four_id"/>
                     <result property="pname" column="four_pname"/>
+                    <result property="ptype" column="four_ptype"/>
                 </collection>
             </collection>
         </collection>
@@ -22,12 +26,16 @@
         SELECT
         a.id one_id,
         a.pname one_pname,
+        a.ptype one_ptype,
         b.id two_id,
         b.pname two_pname,
+        b.ptype two_ptype,
         c.id three_id,
         c.pname three_pname,
+        c.ptype three_ptype,
         d.id four_id,
-        d.pname four_pname
+        d.pname four_pname,
+        d.ptype four_ptype
         FROM
         course_plan a
         LEFT JOIN course_plan b
@@ -42,6 +50,7 @@
         </if>
         ORDER BY a.orderby,
         b.orderby,
-        c.orderby
+        c.orderby,
+        d.orderby
     </select>
 </mapper>

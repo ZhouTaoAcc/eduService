@@ -32,12 +32,12 @@ public class TestFindCourse {
     public void findLearnCourse(){
         List<LearningCourse> learningCourses = learningCourseRepository.findByUserId("49");
         ListIterator<LearningCourse> iterator = learningCourses.listIterator();
-        List<Map<String,CoursePub>> list=new ArrayList<>();
+        List<CoursePub> list=new ArrayList<>();
         while (iterator.hasNext())
         {
             LearningCourse learningCourse = iterator.next();
             String courseId = learningCourse.getCourseId();
-            Map<String, CoursePub> courseAll = courseFeign.getCourseAll(courseId);
+           CoursePub courseAll = courseFeign.getCourseAll(courseId);
             list.add(courseAll);
         }
     }
