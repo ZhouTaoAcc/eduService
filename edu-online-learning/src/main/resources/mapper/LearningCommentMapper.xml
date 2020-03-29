@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.online.learning.dao.LearningCommentMapper">
+    <resultMap id="LearningCommentVO" type="edu.online.Entity.learning.vo.LearningCommentVO">
+        <id property="id" column="one_id"/>
+        <result property="parentId" column="one_parentId"/>
+        <result property="username" column="one_username"/>
+        <result property="courseId" column="one_courseId"/>
+        <result property="courseplanId" column="one_courseplanId"/>
+        <result property="commentTitle" column="one_commentTitle"/>
+        <result property="commentText" column="one_commentText"/>
+        <result property="type" column="one_type"/>
+        <result property="praise" column="one_praise"/>
+        <result property="createTime" column="one_createTime"/>
+        <collection property="children" ofType="edu.online.Entity.learning.vo.LearningCommentVO">
+            <id property="id" column="two_id"/>
+            <result property="parentId" column="two_parentId"/>
+            <result property="username" column="two_username"/>
+            <result property="courseId" column="two_courseId"/>
+            <result property="courseplanId" column="two_courseplanId"/>
+            <result property="commentTitle" column="two_commentTitle"/>
+            <result property="commentText" column="two_commentText"/>
+            <result property="type" column="two_type"/>
+            <result property="praise" column="two_praise"/>
+            <result property="createTime" column="two_createTime"/>
+            <collection property="children" ofType="edu.online.Entity.learning.vo.LearningCommentVO">
+                <id property="id" column="three_id"/>
+                <result property="parentId" column="three_parentId"/>
+                <result property="username" column="three_username"/>
+                <result property="courseId" column="three_courseId"/>
+                <result property="courseplanId" column="three_courseplanId"/>
+                <result property="commentTitle" column="three_commentTitle"/>
+                <result property="commentText" column="three_commentText"/>
+                <result property="type" column="three_type"/>
+                <result property="praise" column="three_praise"/>
+                <result property="createTime" column="three_createTime"/>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="findComment" parameterType="edu.online.Entity.learning.request.LearningCommentRequest"
+            resultMap="LearningCommentVO">
+        SELECT
+        a.id one_id,
+        a.parent_id one_parentId,
+        a.username one_username,
+        a.course_id one_courseId,
+        a.courseplan_id one_courseplanId,
+        a.comment_title one_commentTitle,
+        a.comment_text one_commentText,
+        a.type one_type,
+        a.praise one_praise,
+        a.create_time one_createTime,
+        b.id two_id,
+        b.parent_id two_parentId,
+        b.username two_username,
+        b.course_id two_courseId,
+        b.courseplan_id two_courseplanId,
+        b.comment_title two_commentTitle,
+        b.comment_text two_commentText,
+        b.type two_type,
+        b.praise two_praise,
+        b.create_time two_createTime,
+        c.id three_id,
+        c.parent_id three_parentId,
+        c.username three_username,
+        c.course_id three_courseId,
+        c.courseplan_id three_courseplanId,
+        c.comment_title three_commentTitle,
+        c.comment_text three_commentText,
+        c.type three_type,
+        c.praise three_praise,
+        c.create_time three_createTime
+        FROM learning_comment a LEFT JOIN learning_comment b
+        ON a.id = b.parent_id
+        LEFT JOIN learning_comment c
+        ON b.id = c.parent_id
+        WHERE a.parent_id = '0'AND a.course_id=#{learningCommentRequest.courseId}
+        <if test="learningCommentRequest.id!=null and learningCommentRequest.id!=''">
+            And a.id =#{learningCommentRequest.id}
+        </if>
+        <if test="learningCommentRequest.username!=null and learningCommentRequest.username!=''">
+            And a.user_id =#{learningCommentRequest.username}
+        </if>
+        <if test="learningCommentRequest.type!=null and learningCommentRequest.type!=''">
+            And a.type =#{learningCommentRequest.type}
+        </if>
+        <if test="learningCommentRequest.keyword!=null and learningCommentRequest.keyword!=''">
+            And ((a.comment_text like'%${learningCommentRequest.keyword}%')
+            or (a.comment_title like'%${learningCommentRequest.keyword}%'))
+        </if>
+        ORDER BY a.praise
+    </select>
+
+</mapper>
